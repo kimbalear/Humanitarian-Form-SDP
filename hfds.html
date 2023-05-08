@@ -8640,7 +8640,7 @@
           <div class="l1 lv0" keyword="opt_c:tb2q6">Is your clinic set up to provide Post-Exposure Prophylaxis for HIV
             to survivors?</div>
 
-          <div class="ans rdTwo" lables="Yes,No" name="q6" values="twoyes,twono">&nbsp;</div>
+          <div class="ans rdTwo" lables="Yes,No" name="q6" values="twoyes,twono"><input id="H3swdBoEO5z-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - Provide Post-Expo Prophy HIV" value="[ HUM-v1 - Provide Post-Expo Prophy HIV ]" /><input id="MbgfjJryaZq-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide post-expo Prophylaxis HIV" value="[ HUM-v1 - No provide post-expo Prophylaxis HIV ]" /></div>
         </div>
       </div>
 
@@ -9895,21 +9895,21 @@
 
       const oneno = `<div id="oneno" class="grdTb2-a1s">
               <div class="l1 lv1" keyword="opt_c:tb2q4">If no, can your clinic support survivors to access emergency contraception elsewhere through a safe referral?</div>
-              <div class="ans rd_oneno" lables="Yes,No" name="q4" values="onenoyes,onenono"></div>
+              <div class="ans rd_oneno" lables="Yes,No" name="q4" values="onenoyes,onenono"><input id="mQyauTEKafN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. EC safe referral" value="[ HUM-v1 - If no support surv. EC safe referral ]" /><input id="AfvGjlOtbVQ-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. No EC safe referral" value="[ HUM-v1 - If no support surv. No EC safe referral ]" /></div>
           </div>`
 
       const oneno_n = `<div id="oneno-n" class="grdTb2-a2"><div id="oneno_n" class="l1 lv3" keyword="opt_c:tb2qwhy">If no, Why?</div></div>`
 
       const twoyes = `<div id="twoyes" class="grdTb2-a1s">
               <div class="l1 lv1" keyword="opt_c:tb2q7">If yes, did your clinic provide Post-Exposure Prophylaxis for HIV to survivors during this reporting period?</div>
-              <div class="ans rd_twoyes" lables="Yes,No" name="q7" values="twoyes_y,twoyes_n"></div>
+              <div class="ans rd_twoyes" lables="Yes,No" name="q7" values="twoyes_y,twoyes_n"><input id="fkPXNirCbkU-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - Yes provide post-expo Prophylaxis HIV" value="[ HUM-v1 - Yes provide post-expo Prophylaxis HIV ]" /><input id="lSfjA6CzZnN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - Yes no provide post-expo Prophylaxis HIV" value="[ HUM-v1 - Yes no provide post-expo Prophylaxis HIV ]" /></div>
           </div>`
 
-      const twoyes_n = `<div id="twoyes-n" class="grdTb2-a4"><div id="twoyes_n" class="l1 lv1" keyword="opt_c:tb2q_no">If no, why is this service not available?</div></div>`
+      const twoyes_n = `<div id="twoyes-n" class="grdTb2-a4"><div id="twoyes_n" class="l1 lv1" keyword="opt_c:tb2q_no">If no, why is this service not available?</div><input id="zyofNFhIfkU-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - Clinic DIDN'T provide PP Prophylaxis" value="[ HUM-v1 - Clinic DIDN'T provide PP Prophylaxis ]" /></div>`
 
       const twono = `<div id="twono" class="grdTb2-a1">
               <div class="l1 lv2" keyword="opt_c:"tb2q9">If no, can your clinic support survivors to access Post-Exposure Prophylaxis for HIV elsewhere  through a safe referral?</div>
-              <div class="ans rd_twono" lables="Yes,No" name="q9" values="twono_y,twono_n"></div>
+              <div class="ans rd_twono" lables="Yes,No" name="q9" values="twono_y,twono_n"><input id="mUTKHsUqYtV-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no provide PP Prophylaxis safe referral" value="[ HUM-v1 - If no provide PP Prophylaxis safe referral ]" /><input id="EJYsbEsl4HW-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no provide no PP Prophylaxis safe referral" value="[ HUM-v1 - If no provide no PP Prophylaxis safe referral ]" /></div>
           </div>`
 
       const twono_n = `<div id="twono-n" class="grdTb2-a2"><div id="twono_n" class="l1 lv3" keyword="opt_c:tb2qwhy">If no, Why?</div></div>`
@@ -9938,10 +9938,11 @@
         case 'oneyes_n':
           if (!$("#oneyes-n").length) {
             $("#oneyes").after(oneyes_n)
-            var rd1 = '<div class="ansa rd_oneyes_n" lables="National policy does not allow" name="q3" values="oneyes_n1"></div>'
-            var rd2 = '<div class="ansb rd_oneyes_n" lables="No stock available" name="q3" values="oneoneyes_n2"></div>'
-            var rd3 = '<div class="ansc rd_oneyes_n" lables="No trained staff" name="q3" values="oneyes_n3"></div>'
-            var rd4 = '<div class="ansd rd_oneyes_n" lables="Other" name="q3" values="oneyes_n4"></div>'
+            var rd1 = '<div class="ansa rd_oneyes_n" lables="National policy does not allow" name="q3" values="oneyes_n1"><input id="FRxe9vfwsY6-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because National Policy" value="[ HUM-v1 - No EC because National Policy ]" /></div>'
+            var rd2 = '<div class="ansb rd_oneyes_n" lables="No stock available" name="q3" values="oneoneyes_n2"><input id="GXtog0vfGDD-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because Stock out" value="[ HUM-v1 - No EC because Stock out ]" /></div>'
+            var rd3 = '<div class="ansc rd_oneyes_n" lables="No trained staff" name="q3" values="oneyes_n3"><input id="eHgHleG5Rv8-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no trained staff" value="[ HUM-v1 - No EC because no trained staff ]" /></div>'
+            var rd4 = '<div class="ansd rd_oneyes_n" lables="Other" name="q3" values="oneyes_n4"><input id="wOBfIYXBmiC-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no other" value="[ HUM-v1 - No EC because no other ]" /></div>'
+            // Other Text
             $("#oneyes_n").after(rd1)
             $("#oneyes_n").after(rd2)
             $("#oneyes_n").after(rd3)
@@ -9966,8 +9967,8 @@
         case 'onenono':
           if (!$("#oneno-n").length) {
             $("#oneno").after(oneno_n)
-            var rd1 = '<div class="ans1 rd_oneno_n" lables="No one in the area provides this service" name="q5" values="oneno_n1"></div>';
-            var rd2 = '<div class="ans2 rd_oneno_n" lables="Other:" name="q5" values="oneno_n2"></div>';
+            var rd1 = '<div class="ans1 rd_oneno_n" lables="No one in the area provides this service" name="q5" values="oneno_n1"><input id="vl7bLeRkJtw-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No supp. EC safe referral because no one provides" value="[ HUM-v1 - No supp. EC safe referral because no one provides ]" /></div>';
+            var rd2 = '<div class="ans2 rd_oneno_n" lables="Other:" name="q5" values="oneno_n2"><input id="WuX2PVXau71-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No supp. EC safe referral other" value="[ HUM-v1 - No supp. EC safe referral other ]" /></div>';
             $("#oneno_n").after(rd1)
             $("#oneno_n").after(rd2)
             me.renderRadioBtnTags();
@@ -9995,10 +9996,10 @@
         case 'twoyes_n':
           if (!$("#twoyes-n").length) {
             $("#twoyes").after(twoyes_n)
-            var rd1 = '<div class="ansa rd_twoyes_n" lables="National policy does not allow" name="q8" values="twoyes_n1"></div>';
-            var rd2 = '<div class="ansb rd_twoyes_n" lables="No stock available" name="q8" values="twoyes_n2"></div>';
-            var rd3 = '<div class="ansc rd_twoyes_n" lables="No trained staff" name="q8" values="twoyes_n3"></div>';
-            var rd4 = '<div class="ansd rd_twoyes_n" lables="Other" name="q8" values="twoyes_n4"></div>';
+            var rd1 = '<div class="ansa rd_twoyes_n" lables="National policy does not allow" name="q8" values="twoyes_n1"><input id="B0dsr4nUXnw-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide PP Prophylaxis because National Policy" value="[ HUM-v1 - No provide PP Prophylaxis because National Policy ]" /></div>';
+            var rd2 = '<div class="ansb rd_twoyes_n" lables="No stock available" name="q8" values="twoyes_n2"><input id="NRz1O4eN3co-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide PP Prophylaxis because Stock out" value="[ HUM-v1 - No provide PP Prophylaxis because Stock out ]" /></div>';
+            var rd3 = '<div class="ansc rd_twoyes_n" lables="No trained staff" name="q8" values="twoyes_n3"><input id="iSWZ0OSgMv8-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide PP Prophylaxis because no trained staff" value="[ HUM-v1 - No provide PP Prophylaxis because no trained staff ]" /></div>';
+            var rd4 = '<div class="ansd rd_twoyes_n" lables="Other" name="q8" values="twoyes_n4"><input id="UGkuWRjx5cW-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide PP Prophylaxis because no other" value="[ HUM-v1 - No provide PP Prophylaxis because no other ]" /></div>';
             $("#twoyes_n").after(rd1)
             $("#twoyes_n").after(rd2)
             $("#twoyes_n").after(rd3)
@@ -10022,8 +10023,8 @@
         case 'twono_n':
           if (!$("#twono-n").length) {
             $("#twono").after(twono_n)
-            var rd1 = '<div class="ans1 rd_twono_n" lables="No one in the area provides this service" name="q10" values="twono_n1"></div>'
-            var rd2 = '<div class="ans2 rd_twono_n" lables="Other" name="q10" values="twono_n2"></div>'
+            var rd1 = '<div class="ans1 rd_twono_n" lables="No one in the area provides this service" name="q10" values="twono_n1"><input id="WIeIuWxhraE-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no provide no PP Prophylaxis no service in area" value="[ HUM-v1 - If no provide no PP Prophylaxis no service in area ]" /></div>'
+            var rd2 = '<div class="ans2 rd_twono_n" lables="Other" name="q10" values="twono_n2"><input id="BRyL95wujhN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no provide no PP Prophylaxis other" value="[ HUM-v1 - If no provide no PP Prophylaxis other ]" /></div>'
             $("#twono_n").after(rd1)
             $("#twono_n").after(rd2)
             me.renderRadioBtnTags();
@@ -10178,103 +10179,3 @@
     }
   });
 </script>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
-<style type="text/css">
-  <!--td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}
-  -->
-</style>
