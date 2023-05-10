@@ -80,7 +80,8 @@
     }
 }
 
-.grdTb2-a1s, #ecyes {
+.grdTb2-a1s,
+#ecyes {
     display: grid;
     grid-template-columns: 1fr 300px;
     grid-template-rows: 48px;
@@ -115,7 +116,7 @@
 .grdTb2-a2 {
     display: grid;
     grid-template-columns: 1fr 300px;
-    grid-template-rows: repeat(2, 48px);
+    grid-template-rows: repeat(3, 48px);
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -123,7 +124,8 @@
     width: 95%;
     grid-template-areas:
         "l1 ans1"
-        "l1 ans2";
+        "l1 ans2"
+        "l1 ans2tx";
 
     .l1 {
         grid-area: l1;
@@ -147,16 +149,32 @@
         grid-area: ans2;
         border-left: 1px solid $clr_brdr;
         border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
         display: flex;
         flex-direction: row;
+    }
+
+    .ans2tx {
+        grid-area: ans2tx;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
+            border: none !important;
+            //padding: 2px 8px;
+            text-align: left;
+        }
     }
 }
 
 .grdTb2-a4 {
     display: grid;
     grid-template-columns: 1fr 300px;
-    grid-template-rows: repeat(4, 48px);
+    grid-template-rows: repeat(5, 48px);
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -166,7 +184,8 @@
         "l1 ansa"
         "l1 ansb"
         "l1 ansc"
-        "l1 ansd";
+        "l1 ansd"
+        "l1 ansdtx";
 
     .l1 {
         grid-area: l1;
@@ -208,9 +227,25 @@
         grid-area: ansd;
         border-left: 1px solid $clr_brdr;
         border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
         display: flex;
         flex-direction: row;
+    }
+
+    .ansdtx {
+        grid-area: ansdtx;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
+            border: none !important;
+            //padding: 2px 8px;
+            text-align: left;
+        }
     }
 }
 

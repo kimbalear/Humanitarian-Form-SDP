@@ -1673,7 +1673,8 @@
   flex-direction: row;
 }
 
-.grdTb2-a1s, #ecyes {
+.grdTb2-a1s,
+#ecyes {
   display: grid;
   grid-template-columns: 1fr 300px;
   grid-template-rows: 48px;
@@ -1684,7 +1685,8 @@
   width: 95%;
   grid-template-areas: "l1 ans";
 }
-.grdTb2-a1s .l1, #ecyes .l1 {
+.grdTb2-a1s .l1,
+#ecyes .l1 {
   grid-area: l1;
   color: #151F6D;
   background-color: rgba(156, 226, 242, 0.2117647059);
@@ -1693,7 +1695,8 @@
   display: flex;
   align-items: center;
 }
-.grdTb2-a1s .ans, #ecyes .ans {
+.grdTb2-a1s .ans,
+#ecyes .ans {
   grid-area: ans;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
@@ -1705,13 +1708,13 @@
 .grdTb2-a2 {
   display: grid;
   grid-template-columns: 1fr 300px;
-  grid-template-rows: repeat(2, 48px);
+  grid-template-rows: repeat(3, 48px);
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   font-family: "Roboto", sans-serif;
   width: 95%;
-  grid-template-areas: "l1 ans1" "l1 ans2";
+  grid-template-areas: "l1 ans1" "l1 ans2" "l1 ans2tx";
 }
 .grdTb2-a2 .l1 {
   grid-area: l1;
@@ -1733,21 +1736,34 @@
   grid-area: ans2;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
   display: flex;
   flex-direction: row;
+}
+.grdTb2-a2 .ans2tx {
+  grid-area: ans2tx;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+.grdTb2-a2 .ans2tx input {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  border: none !important;
+  text-align: left;
 }
 
 .grdTb2-a4 {
   display: grid;
   grid-template-columns: 1fr 300px;
-  grid-template-rows: repeat(4, 48px);
+  grid-template-rows: repeat(5, 48px);
   grid-auto-columns: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   font-family: "Roboto", sans-serif;
   width: 95%;
-  grid-template-areas: "l1 ansa" "l1 ansb" "l1 ansc" "l1 ansd";
+  grid-template-areas: "l1 ansa" "l1 ansb" "l1 ansc" "l1 ansd" "l1 ansdtx";
 }
 .grdTb2-a4 .l1 {
   grid-area: l1;
@@ -1785,9 +1801,22 @@
   grid-area: ansd;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
-  border-bottom: 1px solid #e6e6e6;
   display: flex;
   flex-direction: row;
+}
+.grdTb2-a4 .ansdtx {
+  grid-area: ansdtx;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+.grdTb2-a4 .ansdtx input {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  border: none !important;
+  text-align: left;
 }
 
 .lv0 {
