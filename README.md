@@ -13,9 +13,3 @@ ID: GpsXo2XHyrI
 
 sprint: ACR/AR/AWR
 Stream3: EN/ESEAOR/SAR
-
-
-Humanitarian SDP
- - background-color: $momentum_clr11;
- - pointer-events: none;
- - Input text-align: right;
