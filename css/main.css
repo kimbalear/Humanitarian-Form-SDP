@@ -153,6 +153,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l1c4 {
   grid-area: l1c4;
@@ -164,6 +165,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l1tt {
   grid-area: l1tt;
@@ -176,6 +178,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l2c2 {
   grid-area: l2c2;
@@ -187,6 +190,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l2c3 {
   grid-area: l2c3;
@@ -198,6 +202,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l2c4 {
   grid-area: l2c4;
@@ -209,6 +214,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l2tt {
   grid-area: l2tt;
@@ -221,6 +227,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l3c2 {
   grid-area: l3c2;
@@ -232,6 +239,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l3c3 {
   grid-area: l3c3;
@@ -243,6 +251,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l3c4 {
   grid-area: l3c4;
@@ -254,6 +263,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l3tt {
   grid-area: l3tt;
@@ -266,6 +276,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l4c2 {
   grid-area: l4c2;
@@ -277,6 +288,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l4c3 {
   grid-area: l4c3;
@@ -288,6 +300,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l4c4 {
   grid-area: l4c4;
@@ -299,6 +312,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l4tt {
   grid-area: l4tt;
@@ -311,6 +325,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l5c2 {
   grid-area: l5c2;
@@ -322,6 +337,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l5c3 {
   grid-area: l5c3;
@@ -333,6 +349,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l5c4 {
   grid-area: l5c4;
@@ -344,6 +361,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l5tt {
   grid-area: l5tt;
@@ -356,6 +374,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l6c2tt {
   grid-area: l6c2tt;
@@ -367,6 +386,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l6c3tt {
   grid-area: l6c3tt;
@@ -378,6 +398,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l6c4tt {
   grid-area: l6c4tt;
@@ -389,6 +410,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-1 .l6tt {
   grid-area: l6tt;
@@ -401,6 +423,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb1-2 {
@@ -546,6 +569,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l1c4 {
   grid-area: l1c4;
@@ -557,6 +581,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l1tt {
   grid-area: l1tt;
@@ -569,6 +594,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l2c2 {
   grid-area: l2c2;
@@ -580,6 +606,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l2c3 {
   grid-area: l2c3;
@@ -591,6 +618,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l2c4 {
   grid-area: l2c4;
@@ -602,6 +630,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l2tt {
   grid-area: l2tt;
@@ -614,6 +643,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l3c2 {
   grid-area: l3c2;
@@ -625,6 +655,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l3c3 {
   grid-area: l3c3;
@@ -636,6 +667,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l3c4 {
   grid-area: l3c4;
@@ -647,6 +679,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l3tt {
   grid-area: l3tt;
@@ -659,17 +692,21 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l4c2 {
   grid-area: l4c2;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb1-2 .l4c2 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l4c3 {
   grid-area: l4c3;
@@ -681,6 +718,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l4c4 {
   grid-area: l4c4;
@@ -692,6 +730,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l4tt {
   grid-area: l4tt;
@@ -704,6 +743,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l5c2 {
   grid-area: l5c2;
@@ -715,6 +755,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l5c3 {
   grid-area: l5c3;
@@ -726,6 +767,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l5c4 {
   grid-area: l5c4;
@@ -737,6 +779,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-2 .l5tt {
   grid-area: l5tt;
@@ -749,6 +792,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb1-3 {
@@ -864,6 +908,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-3 .l1c4 {
   grid-area: l1c4;
@@ -875,6 +920,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-3 .l1tt {
   grid-area: l1tt;
@@ -887,6 +933,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-3 .l2c2 {
   grid-area: l2c2;
@@ -898,6 +945,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-3 .l2c3 {
   grid-area: l2c3;
@@ -909,6 +957,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-3 .l2c4 {
   grid-area: l2c4;
@@ -920,6 +969,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-3 .l2tt {
   grid-area: l2tt;
@@ -932,6 +982,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb1-4 {
@@ -1012,6 +1063,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1c1l1 {
   grid-area: g1c1l1;
@@ -1023,6 +1075,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1c2l1 {
   grid-area: g1c2l1;
@@ -1035,6 +1088,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1tl2 {
   grid-area: g1tl2;
@@ -1056,6 +1110,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1c2l2 {
   grid-area: g1c2l2;
@@ -1068,6 +1123,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1tl3 {
   grid-area: g1tl3;
@@ -1089,6 +1145,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1c2l3 {
   grid-area: g1c2l3;
@@ -1101,6 +1158,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1tt {
   grid-area: g1tt;
@@ -1123,6 +1181,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g1c2l3t {
   grid-area: g1c2l3t;
@@ -1135,6 +1194,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2 {
   grid-area: g2;
@@ -1166,6 +1226,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2c2l1 {
   grid-area: g2c2l1;
@@ -1178,6 +1239,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2tl2 {
   grid-area: g2tl2;
@@ -1199,6 +1261,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2c2l2 {
   grid-area: g2c2l2;
@@ -1211,6 +1274,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2tl3 {
   grid-area: g2tl3;
@@ -1232,6 +1296,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2c2l3 {
   grid-area: g2c2l3;
@@ -1244,6 +1309,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2l3t2 {
   grid-area: g2l3t2;
@@ -1256,6 +1322,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2t1 {
   grid-area: g2t1;
@@ -1267,6 +1334,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2t2 {
   grid-area: g2t2;
@@ -1279,6 +1347,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2tt {
   grid-area: g2tt;
@@ -1301,6 +1370,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g2c2l3t {
   grid-area: g2c2l3t;
@@ -1313,6 +1383,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3 {
   grid-area: g3;
@@ -1356,6 +1427,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3tl2 {
   grid-area: g3tl2;
@@ -1377,6 +1449,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3c2l2 {
   grid-area: g3c2l2;
@@ -1389,6 +1462,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3tl3 {
   grid-area: g3tl3;
@@ -1410,6 +1484,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3c2l3 {
   grid-area: g3c2l3;
@@ -1422,6 +1497,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3tt {
   grid-area: g3tt;
@@ -1444,6 +1520,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g3c2l3t {
   grid-area: g3c2l3t;
@@ -1456,6 +1533,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4 {
   grid-area: g4;
@@ -1487,6 +1565,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4c2l1 {
   grid-area: g4c2l1;
@@ -1499,6 +1578,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4tl2 {
   grid-area: g4tl2;
@@ -1520,6 +1600,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4c2l2 {
   grid-area: g4c2l2;
@@ -1532,6 +1613,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4tl3 {
   grid-area: g4tl3;
@@ -1553,6 +1635,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4c2l3 {
   grid-area: g4c2l3;
@@ -1565,6 +1648,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4tt {
   grid-area: g4tt;
@@ -1587,6 +1671,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb1-4 .g4c2l3t {
   grid-area: g4c2l3t;
@@ -1599,6 +1684,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb2-1a {
@@ -1859,6 +1945,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .c2t {
   grid-area: c2t;
@@ -1871,6 +1958,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .c3t {
   grid-area: c3t;
@@ -1883,6 +1971,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .c4t {
   grid-area: c4t;
@@ -1895,6 +1984,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .c5t {
   grid-area: c5t;
@@ -1907,6 +1997,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .title {
   grid-area: title;
@@ -2074,6 +2165,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c1l1 {
   grid-area: g1c1l1;
@@ -2085,6 +2177,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c2l1 {
   grid-area: g1c2l1;
@@ -2096,6 +2189,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1tl2 {
   grid-area: g1tl2;
@@ -2117,6 +2211,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c2l2 {
   grid-area: g1c2l2;
@@ -2128,6 +2223,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1tl3 {
   grid-area: g1tl3;
@@ -2149,6 +2245,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c2l3 {
   grid-area: g1c2l3;
@@ -2160,6 +2257,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t1 {
   grid-area: g1t1;
@@ -2171,6 +2269,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t2 {
   grid-area: g1t2;
@@ -2182,6 +2281,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c3l1 {
   grid-area: g1c3l1;
@@ -2193,6 +2293,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c3l2 {
   grid-area: g1c3l2;
@@ -2204,6 +2305,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c3l3 {
   grid-area: g1c3l3;
@@ -2215,6 +2317,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t3 {
   grid-area: g1t3;
@@ -2226,6 +2329,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c4l1 {
   grid-area: g1c4l1;
@@ -2237,6 +2341,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c4l2 {
   grid-area: g1c4l2;
@@ -2248,6 +2353,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c4l3 {
   grid-area: g1c4l3;
@@ -2259,6 +2365,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t4 {
   grid-area: g1t4;
@@ -2270,6 +2377,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c4l1 {
   grid-area: g1c4l1;
@@ -2281,6 +2389,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c4l2 {
   grid-area: g1c4l2;
@@ -2292,6 +2401,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c4l3 {
   grid-area: g1c4l3;
@@ -2303,6 +2413,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t4 {
   grid-area: g1t4;
@@ -2314,6 +2425,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c5l1 {
   grid-area: g1c5l1;
@@ -2325,6 +2437,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c5l2 {
   grid-area: g1c5l2;
@@ -2336,6 +2449,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1c5l3 {
   grid-area: g1c5l3;
@@ -2347,6 +2461,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t5 {
   grid-area: g1t5;
@@ -2359,6 +2474,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2 {
   grid-area: g2;
@@ -2390,6 +2506,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c2l1 {
   grid-area: g2c2l1;
@@ -2401,6 +2518,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2tl2 {
   grid-area: g2tl2;
@@ -2422,6 +2540,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c2l2 {
   grid-area: g2c2l2;
@@ -2433,6 +2552,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2tl3 {
   grid-area: g2tl3;
@@ -2454,6 +2574,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c2l3 {
   grid-area: g2c2l3;
@@ -2465,6 +2586,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l3t2 {
   grid-area: g2l3t2;
@@ -2477,6 +2599,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t1 {
   grid-area: g2t1;
@@ -2488,6 +2611,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t2 {
   grid-area: g2t2;
@@ -2499,6 +2623,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c3l1 {
   grid-area: g2c3l1;
@@ -2510,6 +2635,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c3l2 {
   grid-area: g2c3l2;
@@ -2521,6 +2647,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c3l3 {
   grid-area: g2c3l3;
@@ -2532,6 +2659,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t3 {
   grid-area: g2t3;
@@ -2543,6 +2671,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c4l1 {
   grid-area: g2c4l1;
@@ -2554,6 +2683,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c4l2 {
   grid-area: g2c4l2;
@@ -2565,6 +2695,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c4l3 {
   grid-area: g2c4l3;
@@ -2576,6 +2707,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t4 {
   grid-area: g2t4;
@@ -2587,6 +2719,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c4l1 {
   grid-area: g2c4l1;
@@ -2598,6 +2731,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c4l2 {
   grid-area: g2c4l2;
@@ -2609,6 +2743,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c4l3 {
   grid-area: g2c4l3;
@@ -2620,6 +2755,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t4 {
   grid-area: g2t4;
@@ -2631,6 +2767,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c5l1 {
   grid-area: g2c5l1;
@@ -2642,6 +2779,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c5l2 {
   grid-area: g2c5l2;
@@ -2653,6 +2791,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2c5l3 {
   grid-area: g2c5l3;
@@ -2664,6 +2803,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t5 {
   grid-area: g2t5;
@@ -2676,6 +2816,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3 {
   grid-area: g3;
@@ -2707,6 +2848,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c2l1 {
   grid-area: g3c2l1;
@@ -2718,6 +2860,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3tl2 {
   grid-area: g3tl2;
@@ -2739,6 +2882,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c2l2 {
   grid-area: g3c2l2;
@@ -2750,6 +2894,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3tl3 {
   grid-area: g3tl3;
@@ -2771,6 +2916,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c2l3 {
   grid-area: g3c2l3;
@@ -2782,6 +2928,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3t1 {
   grid-area: g3t1;
@@ -2793,6 +2940,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3t2 {
   grid-area: g3t2;
@@ -2804,6 +2952,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c3l1 {
   grid-area: g3c3l1;
@@ -2815,6 +2964,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c3l2 {
   grid-area: g3c3l2;
@@ -2826,6 +2976,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c3l3 {
   grid-area: g3c3l3;
@@ -2837,6 +2988,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3t3 {
   grid-area: g3t3;
@@ -2848,6 +3000,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c4l1 {
   grid-area: g3c4l1;
@@ -2859,6 +3012,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c4l2 {
   grid-area: g3c4l2;
@@ -2870,6 +3024,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c4l3 {
   grid-area: g3c4l3;
@@ -2881,6 +3036,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3t4 {
   grid-area: g3t4;
@@ -2892,6 +3048,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c5l1 {
   grid-area: g3c5l1;
@@ -2903,6 +3060,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c5l2 {
   grid-area: g3c5l2;
@@ -2914,6 +3072,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3c5l3 {
   grid-area: g3c5l3;
@@ -2925,6 +3084,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3t5 {
   grid-area: g3t5;
@@ -2937,6 +3097,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb3-1 {
@@ -3059,6 +3220,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l1c2 {
   grid-area: g1l1c2;
@@ -3070,6 +3232,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l1c3 {
   grid-area: g1l1c3;
@@ -3081,6 +3244,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l1c4 {
   grid-area: g1l1c4;
@@ -3092,6 +3256,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l1c5 {
   grid-area: g1l1c5;
@@ -3104,6 +3269,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l2 {
   grid-area: g1l2;
@@ -3126,6 +3292,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l2c2 {
   grid-area: g1l2c2;
@@ -3137,6 +3304,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l2c3 {
   grid-area: g1l2c3;
@@ -3148,6 +3316,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l2c4 {
   grid-area: g1l2c4;
@@ -3159,6 +3328,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l2c5 {
   grid-area: g1l2c5;
@@ -3171,6 +3341,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l3 {
   grid-area: g1l3;
@@ -3193,6 +3364,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l3c2 {
   grid-area: g1l3c2;
@@ -3204,6 +3376,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l3c3 {
   grid-area: g1l3c3;
@@ -3215,6 +3388,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l3c4 {
   grid-area: g1l3c4;
@@ -3226,6 +3400,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1l3c5 {
   grid-area: g1l3c5;
@@ -3238,6 +3413,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1t {
   grid-area: g1t;
@@ -3260,6 +3436,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1ttc2 {
   grid-area: g1ttc2;
@@ -3271,6 +3448,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1ttc3 {
   grid-area: g1ttc3;
@@ -3282,6 +3460,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1ttc4 {
   grid-area: g1ttc4;
@@ -3293,6 +3472,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g1ttc5 {
   grid-area: g1ttc5;
@@ -3305,6 +3485,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2 {
   grid-area: g2;
@@ -3337,6 +3518,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l1c2 {
   grid-area: g2l1c2;
@@ -3348,6 +3530,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l1c3 {
   grid-area: g2l1c3;
@@ -3359,6 +3542,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l1c4 {
   grid-area: g2l1c4;
@@ -3370,6 +3554,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l1c5 {
   grid-area: g2l1c5;
@@ -3382,6 +3567,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l2 {
   grid-area: g2l2;
@@ -3404,6 +3590,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l2c2 {
   grid-area: g2l2c2;
@@ -3415,6 +3602,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l2c3 {
   grid-area: g2l2c3;
@@ -3426,6 +3614,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l2c4 {
   grid-area: g2l2c4;
@@ -3437,6 +3626,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l2c5 {
   grid-area: g2l2c5;
@@ -3449,6 +3639,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l3 {
   grid-area: g2l3;
@@ -3471,6 +3662,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l3c2 {
   grid-area: g2l3c2;
@@ -3482,6 +3674,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l3c3 {
   grid-area: g2l3c3;
@@ -3493,6 +3686,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l3c4 {
   grid-area: g2l3c4;
@@ -3504,6 +3698,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2l3c5 {
   grid-area: g2l3c5;
@@ -3516,6 +3711,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2t {
   grid-area: g2t;
@@ -3538,6 +3734,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2ttc2 {
   grid-area: g2ttc2;
@@ -3549,6 +3746,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2ttc3 {
   grid-area: g2ttc3;
@@ -3560,6 +3758,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2ttc4 {
   grid-area: g2ttc4;
@@ -3571,6 +3770,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g2ttc5 {
   grid-area: g2ttc5;
@@ -3583,6 +3783,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3 {
   grid-area: g3;
@@ -3615,6 +3816,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l1c2 {
   grid-area: g3l1c2;
@@ -3626,6 +3828,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l1c3 {
   grid-area: g3l1c3;
@@ -3637,6 +3840,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l1c4 {
   grid-area: g3l1c4;
@@ -3648,6 +3852,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l1c5 {
   grid-area: g3l1c5;
@@ -3660,6 +3865,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l2 {
   grid-area: g3l2;
@@ -3682,6 +3888,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l2c2 {
   grid-area: g3l2c2;
@@ -3693,6 +3900,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l2c3 {
   grid-area: g3l2c3;
@@ -3704,6 +3912,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l2c4 {
   grid-area: g3l2c4;
@@ -3715,6 +3924,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l2c5 {
   grid-area: g3l2c5;
@@ -3727,6 +3937,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l3 {
   grid-area: g3l3;
@@ -3749,6 +3960,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l3c2 {
   grid-area: g3l3c2;
@@ -3760,6 +3972,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l3c3 {
   grid-area: g3l3c3;
@@ -3771,6 +3984,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l3c4 {
   grid-area: g3l3c4;
@@ -3782,6 +3996,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3l3c5 {
   grid-area: g3l3c5;
@@ -3794,6 +4009,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3t {
   grid-area: g3t;
@@ -3816,6 +4032,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3ttc2 {
   grid-area: g3ttc2;
@@ -3827,6 +4044,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3ttc3 {
   grid-area: g3ttc3;
@@ -3838,6 +4056,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3ttc4 {
   grid-area: g3ttc4;
@@ -3849,6 +4068,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-1 .g3ttc5 {
   grid-area: g3ttc5;
@@ -3861,6 +4081,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb3-2 {
@@ -3957,6 +4178,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-2 .l2c2 {
   grid-area: l2c2;
@@ -3968,6 +4190,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb3-2 .l2c3 {
   grid-area: l2c3;
@@ -3984,6 +4207,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb4-1 {
@@ -4259,6 +4483,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l1c4 {
   grid-area: l1c4;
@@ -4270,6 +4495,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l1tt {
   grid-area: l1tt;
@@ -4282,6 +4508,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l2c2 {
   grid-area: l2c2;
@@ -4293,6 +4520,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l2c3 {
   grid-area: l2c3;
@@ -4304,6 +4532,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l2c4 {
   grid-area: l2c4;
@@ -4315,6 +4544,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l2tt {
   grid-area: l2tt;
@@ -4327,6 +4557,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l3c2 {
   grid-area: l3c2;
@@ -4338,6 +4569,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l3c3 {
   grid-area: l3c3;
@@ -4349,6 +4581,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l3c4 {
   grid-area: l3c4;
@@ -4360,6 +4593,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l3tt {
   grid-area: l3tt;
@@ -4372,6 +4606,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l4c2 {
   grid-area: l4c2;
@@ -4383,6 +4618,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l4c3 {
   grid-area: l4c3;
@@ -4394,6 +4630,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l4c4 {
   grid-area: l4c4;
@@ -4405,6 +4642,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb4-3 .l4tt {
   grid-area: l4tt;
@@ -4417,6 +4655,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb4-4 {
@@ -4870,6 +5109,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_12 {
   grid-area: l1_12;
@@ -4881,6 +5121,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_13 {
   grid-area: l1_13;
@@ -4892,6 +5133,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_tt1t {
   grid-area: l1_tt1t;
@@ -4903,6 +5145,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_21 {
   grid-area: l1_21;
@@ -4914,6 +5157,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_22 {
   grid-area: l1_22;
@@ -4925,6 +5169,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_23 {
   grid-area: l1_23;
@@ -4936,6 +5181,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l1_tt2t {
   grid-area: l1_tt2t;
@@ -4948,6 +5194,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2 {
   grid-area: l2;
@@ -4969,6 +5216,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_12 {
   grid-area: l2_12;
@@ -4980,6 +5228,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_13 {
   grid-area: l2_13;
@@ -4991,6 +5240,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_tt1t {
   grid-area: l2_tt1t;
@@ -5002,6 +5252,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_21 {
   grid-area: l2_21;
@@ -5013,6 +5264,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_22 {
   grid-area: l2_22;
@@ -5024,6 +5276,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_23 {
   grid-area: l2_23;
@@ -5035,6 +5288,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l2_tt2t {
   grid-area: l2_tt2t;
@@ -5047,6 +5301,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3 {
   grid-area: l3;
@@ -5068,6 +5323,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_12 {
   grid-area: l3_12;
@@ -5079,6 +5335,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_13 {
   grid-area: l3_13;
@@ -5090,6 +5347,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_tt1t {
   grid-area: l3_tt1t;
@@ -5101,6 +5359,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_21 {
   grid-area: l3_21;
@@ -5112,6 +5371,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_22 {
   grid-area: l3_22;
@@ -5123,6 +5383,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_23 {
   grid-area: l3_23;
@@ -5134,6 +5395,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l3_tt2t {
   grid-area: l3_tt2t;
@@ -5146,6 +5408,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4 {
   grid-area: l4;
@@ -5167,6 +5430,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_12 {
   grid-area: l4_12;
@@ -5178,6 +5442,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_13 {
   grid-area: l4_13;
@@ -5189,6 +5454,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_tt1t {
   grid-area: l4_tt1t;
@@ -5200,6 +5466,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_21 {
   grid-area: l4_21;
@@ -5211,6 +5478,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_22 {
   grid-area: l4_22;
@@ -5222,6 +5490,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_23 {
   grid-area: l4_23;
@@ -5233,6 +5502,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l4_tt2t {
   grid-area: l4_tt2t;
@@ -5245,6 +5515,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5 {
   grid-area: l5;
@@ -5266,6 +5537,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_12 {
   grid-area: l5_12;
@@ -5277,6 +5549,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_13 {
   grid-area: l5_13;
@@ -5288,6 +5561,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_tt1t {
   grid-area: l5_tt1t;
@@ -5299,6 +5573,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_21 {
   grid-area: l5_21;
@@ -5310,6 +5585,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_22 {
   grid-area: l5_22;
@@ -5321,6 +5597,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_23 {
   grid-area: l5_23;
@@ -5332,6 +5609,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l5_tt2t {
   grid-area: l5_tt2t;
@@ -5344,6 +5622,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6 {
   grid-area: l6;
@@ -5365,6 +5644,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_12 {
   grid-area: l6_12;
@@ -5376,6 +5656,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_13 {
   grid-area: l6_13;
@@ -5387,6 +5668,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_tt1t {
   grid-area: l6_tt1t;
@@ -5398,6 +5680,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_21 {
   grid-area: l6_21;
@@ -5409,6 +5692,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_22 {
   grid-area: l6_22;
@@ -5420,6 +5704,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_23 {
   grid-area: l6_23;
@@ -5431,6 +5716,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l6_tt2t {
   grid-area: l6_tt2t;
@@ -5443,6 +5729,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7 {
   grid-area: l7;
@@ -5458,45 +5745,57 @@
   grid-area: l7_11;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l7_11 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_12 {
   grid-area: l7_12;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l7_12 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_13 {
   grid-area: l7_13;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l7_13 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_tt1t {
   grid-area: l7_tt1t;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l7_tt1t input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_21 {
   grid-area: l7_21;
@@ -5508,6 +5807,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_22 {
   grid-area: l7_22;
@@ -5519,6 +5819,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_23 {
   grid-area: l7_23;
@@ -5530,6 +5831,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l7_tt2t {
   grid-area: l7_tt2t;
@@ -5542,6 +5844,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8 {
   grid-area: l8;
@@ -5557,45 +5860,57 @@
   grid-area: l8_11;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l8_11 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_12 {
   grid-area: l8_12;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l8_12 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_13 {
   grid-area: l8_13;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l8_13 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_tt1t {
   grid-area: l8_tt1t;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l8_tt1t input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_21 {
   grid-area: l8_21;
@@ -5607,6 +5922,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_22 {
   grid-area: l8_22;
@@ -5618,6 +5934,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_23 {
   grid-area: l8_23;
@@ -5629,6 +5946,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l8_tt2t {
   grid-area: l8_tt2t;
@@ -5641,6 +5959,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9 {
   grid-area: l9;
@@ -5656,46 +5975,58 @@
   grid-area: l9_11;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l9_11 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_12 {
   grid-area: l9_12;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l9_12 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_13 {
   grid-area: l9_13;
   border-left: 1px solid #e6e6e6;
   border-right: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l9_13 input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_tt1t {
   grid-area: l9_tt1t;
   border-left: 1px solid #e6e6e6;
   border-bottom: 1px solid #e6e6e6;
+  background-color: #7D7D7D;
+  pointer-events: none;
 }
 .grdTb5-1 .l9_tt1t input {
   width: 80%;
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_21 {
   grid-area: l9_21;
@@ -5707,6 +6038,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_22 {
   grid-area: l9_22;
@@ -5718,6 +6050,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_23 {
   grid-area: l9_23;
@@ -5729,6 +6062,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l9_tt2t {
   grid-area: l9_tt2t;
@@ -5741,6 +6075,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10 {
   grid-area: l10;
@@ -5762,6 +6097,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_12 {
   grid-area: l10_12;
@@ -5773,6 +6109,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_13 {
   grid-area: l10_13;
@@ -5785,6 +6122,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_tt1t {
   grid-area: l10_tt1t;
@@ -5796,6 +6134,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_21 {
   grid-area: l10_21;
@@ -5807,6 +6146,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_22 {
   grid-area: l10_22;
@@ -5818,6 +6158,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_23 {
   grid-area: l10_23;
@@ -5830,6 +6171,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-1 .l10_tt2t {
   grid-area: l10_tt2t;
@@ -5842,6 +6184,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb5-2 {
@@ -5989,6 +6332,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l2c2 {
   grid-area: l2c2;
@@ -6000,6 +6344,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l2c3 {
   grid-area: l2c3;
@@ -6022,6 +6367,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l3c3 {
   grid-area: l3c3;
@@ -6044,6 +6390,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l4c3 {
   grid-area: l4c3;
@@ -6066,6 +6413,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l5c3 {
   grid-area: l5c3;
@@ -6088,6 +6436,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l6c3 {
   grid-area: l6c3;
@@ -6110,6 +6459,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-2 .l7c3 {
   grid-area: l7c3;
@@ -6345,6 +6695,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l1c4 {
   grid-area: l1c4;
@@ -6356,6 +6707,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .total1 {
   grid-area: total1;
@@ -6368,6 +6720,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l2c2 {
   grid-area: l2c2;
@@ -6379,6 +6732,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l2c3 {
   grid-area: l2c3;
@@ -6390,6 +6744,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l2c4 {
   grid-area: l2c4;
@@ -6401,6 +6756,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .total2 {
   grid-area: total2;
@@ -6413,6 +6769,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l3c2 {
   grid-area: l3c2;
@@ -6424,6 +6781,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l3c3 {
   grid-area: l3c3;
@@ -6435,6 +6793,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l3c4 {
   grid-area: l3c4;
@@ -6446,6 +6805,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .total3 {
   grid-area: total3;
@@ -6458,6 +6818,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l4c2 {
   grid-area: l4c2;
@@ -6469,6 +6830,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l4c3 {
   grid-area: l4c3;
@@ -6480,6 +6842,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l4c4 {
   grid-area: l4c4;
@@ -6503,6 +6866,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l5c2 {
   grid-area: l5c2;
@@ -6514,6 +6878,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l5c3 {
   grid-area: l5c3;
@@ -6525,6 +6890,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l5c4 {
   grid-area: l5c4;
@@ -6536,6 +6902,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .total5 {
   grid-area: total5;
@@ -6548,6 +6915,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l6c2 {
   grid-area: l6c2;
@@ -6559,6 +6927,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l6c3 {
   grid-area: l6c3;
@@ -6570,6 +6939,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l6c4 {
   grid-area: l6c4;
@@ -6581,6 +6951,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .total6 {
   grid-area: total6;
@@ -6593,6 +6964,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l7c2 {
   grid-area: l7c2;
@@ -6604,6 +6976,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l7c3 {
   grid-area: l7c3;
@@ -6615,6 +6988,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .l7c4 {
   grid-area: l7c4;
@@ -6626,6 +7000,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb5-4 .total7 {
   grid-area: total7;
@@ -6638,6 +7013,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .grdTb6-1 {
@@ -6803,6 +7179,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l1c4 {
   grid-area: l1c4;
@@ -6814,6 +7191,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total1 {
   grid-area: total1;
@@ -6826,6 +7204,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l2c2 {
   grid-area: l2c2;
@@ -6837,6 +7216,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l2c3 {
   grid-area: l2c3;
@@ -6848,6 +7228,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l2c4 {
   grid-area: l2c4;
@@ -6859,6 +7240,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total2 {
   grid-area: total2;
@@ -6871,6 +7253,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l3c2 {
   grid-area: l3c2;
@@ -6882,6 +7265,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l3c3 {
   grid-area: l3c3;
@@ -6893,6 +7277,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l3c4 {
   grid-area: l3c4;
@@ -6904,6 +7289,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total3 {
   grid-area: total3;
@@ -6916,6 +7302,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l4c2 {
   grid-area: l4c2;
@@ -6927,6 +7314,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l4c3 {
   grid-area: l4c3;
@@ -6938,6 +7326,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l4c4 {
   grid-area: l4c4;
@@ -6949,6 +7338,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total4 {
   grid-area: total4;
@@ -6961,6 +7351,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l5c2 {
   grid-area: l5c2;
@@ -6972,6 +7363,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l5c3 {
   grid-area: l5c3;
@@ -6983,6 +7375,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l5c4 {
   grid-area: l5c4;
@@ -6994,6 +7387,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total5 {
   grid-area: total5;
@@ -7006,6 +7400,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l6c2 {
   grid-area: l6c2;
@@ -7017,6 +7412,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l6c3 {
   grid-area: l6c3;
@@ -7028,6 +7424,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l6c4 {
   grid-area: l6c4;
@@ -7039,6 +7436,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total6 {
   grid-area: total6;
@@ -7051,6 +7449,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l7c2 {
   grid-area: l7c2;
@@ -7062,6 +7461,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l7c3 {
   grid-area: l7c3;
@@ -7073,6 +7473,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .l7c4 {
   grid-area: l7c4;
@@ -7084,6 +7485,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 .grdTb6-1 .total7 {
   grid-area: total7;
@@ -7096,6 +7498,7 @@
   height: 80%;
   border: none !important;
   padding: 2px 8px;
+  text-align: right;
 }
 
 .custom_tab {
