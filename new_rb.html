@@ -9182,6 +9182,7 @@
 
   /*# sourceMappingURL=main.css.map */
 </style>
+
 <div id="SDPCustomForm">
   <div id="invalidProjectMessage" style="display:none;">&nbsp;</div>
 
@@ -9630,11 +9631,10 @@
           <div class="l1 lv0" keyword="opt_c:tb2q6">Is your clinic set up to provide Post-Exposure Prophylaxis for HIV
             to survivors?</div>
 
-          <div class="ans rdTwo" labels="Yes,No" name="q6" values="twoyes,twono"><input id="H3swdBoEO5z-X66r2y4EuwS-val"
-              name="entryfield" title="HUM-v1 - Provide Post-Expo Prophy HIV"
-              value="[ HUM-v1 - Provide Post-Expo Prophy HIV ]" /><input id="MbgfjJryaZq-X66r2y4EuwS-val"
-              name="entryfield" title="HUM-v1 - No provide post-expo Prophylaxis HIV"
-              value="[ HUM-v1 - No provide post-expo Prophylaxis HIV ]" /></div>
+          <div class="ans rdTwo" deid="MbgfjJryaZq-X66r2y4EuwS-val" labels="Yes,No" name="q6" values="twoyes,twono">
+            <input id="MbgfjJryaZq-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide post-expo Prophylaxis HIV"
+              value="[ HUM-v1 - No provide post-expo Prophylaxis HIV ]" />
+          </div>
         </div>
       </div>
 
@@ -10582,6 +10582,7 @@
     </div>
   </div>
 </div>
+
 <script>
   $(document).ready(function () {
 
@@ -10717,7 +10718,7 @@
 
       const oneyes_n = `<div id="oneyes-n" class="grdTb2-a4"><div id="oneyes_n" class="l1 lv1" keyword="opt_c:tb2q_no">If no, why is this service not available?</div></div>`
 
-      const oneno = `<div id="oneno" class="grdTb2-a1s"><div class="l1 lv1" keyword="opt_c:tb2q4">If no, can your clinic support survivors to access emergency contraception elsewhere through a safe referral?</div><div class="ans rd_oneno" labels="Yes,No" name="q4" values="onenoyes,onenono"><input id="mQyauTEKafN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. EC safe referral" value="[ HUM-v1 - If no support surv. EC safe referral ]"/><input id="AfvGjlOtbVQ-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. No EC safe referral" value="[ HUM-v1 - If no support surv. No EC safe referral ]"/></div></div>`
+      const oneno = `<div id="oneno" class="grdTb2-a1s"><div class="l1 lv1" keyword="opt_c:tb2q4">If no, can your clinic support survivors to access emergency contraception elsewhere through a safe referral?</div><div class="ans rd_oneno" labels="Yes,No" name="q4" values="oneno_y,oneno_n"><input id="mQyauTEKafN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. EC safe referral" value="[ HUM-v1 - If no support surv. EC safe referral ]"/><input id="AfvGjlOtbVQ-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. No EC safe referral" value="[ HUM-v1 - If no support surv. No EC safe referral ]"/></div></div>`
 
       const oneno_n = `<div id="oneno-n" class="grdTb2-a2"><div id="oneno_n" class="l1 lv3" keyword="opt_c:tb2qwhy">If no, Why?</div></div>`
 
@@ -10752,7 +10753,7 @@
           if (!$("#oneyes-n").length) {
             $("#oneyes").after(oneyes_n)
             var rd1 = '<div class="ansa rd_oneyes_n" labels="National policy does not allow" name="q3" values="oneyes_n1"><input id="FRxe9vfwsY6-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because National Policy" value="[ HUM-v1 - No EC because National Policy ]"/></div>'
-            var rd2 = '<div class="ansb rd_oneyes_n" labels="No stock available" name="q3" values="oneoneyes_n2"><input id="GXtog0vfGDD-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because Stock out" value="[ HUM-v1 - No EC because Stock out ]"/></div>'
+            var rd2 = '<div class="ansb rd_oneyes_n" labels="No stock available" name="q3" values="oneyes_n2"><input id="GXtog0vfGDD-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because Stock out" value="[ HUM-v1 - No EC because Stock out ]"/></div>'
             var rd3 = '<div class="ansc rd_oneyes_n" labels="No trained staff" name="q3" values="oneyes_n3"><input id="eHgHleG5Rv8-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no trained staff" value="[ HUM-v1 - No EC because no trained staff ]"/></div>'
             var rd4 = '<div class="ansd rd_oneyes_n" labels="Other" name="q3" values="oneyes_n4"><input id="wOBfIYXBmiC-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no other" value="[ HUM-v1 - No EC because no other ]"/></div>'
             var rd5 = '<div class="ansdtx"><input id="wMDweMbOIBU-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no other (Text)" value="[ HUM-v1 - No EC because no other (Text) ]"/></div>'
@@ -10775,12 +10776,12 @@
             me.renderRadioBtnTags();
           }
           break;
-        case 'onenoyes':
+        case 'oneno_y':
           if ($("#oneno-n").length) {
             $("#oneno-n").remove();
           }
           break;
-        case 'onenono':
+        case 'oneno_n':
           if (!$("#oneno-n").length) {
             $("#oneno").after(oneno_n)
             var rd1 = '<div class="ans1 rd_oneno_n" labels="No one in the area provides this service" name="q5" values="oneno_n1"><input id="vl7bLeRkJtw-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No supp. EC safe referral because no one provides" value="[ HUM-v1 - No supp. EC safe referral because no one provides ]"/></div>';
