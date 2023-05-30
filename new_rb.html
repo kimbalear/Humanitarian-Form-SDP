@@ -2605,20 +2605,20 @@
     text-align: right;
   }
 
-  .grdTb2-1a {
+  .group1 {
     display: grid;
-    grid-template-columns: 1fr 300px;
-    grid-template-rows: 48px 48px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, minmax(48px, auto)) auto;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    font-family: "Roboto", sans-serif;
+    align-items: stretch;
     width: 95%;
-    grid-template-areas: "t1 t1" "l1 ans";
+    grid-template-areas: "title" "qtn1" "qtn2" "qtn3";
   }
 
-  .grdTb2-1a .t1 {
-    grid-area: t1;
+  .group1 .title {
+    grid-area: title;
     color: #FFFFFF;
     background-color: #00A6E2;
     border-left: 1px solid #e6e6e6;
@@ -2630,39 +2630,23 @@
     padding: 8px;
   }
 
-  .grdTb2-1a .l1 {
-    grid-area: l1;
-    color: #151F6D;
-    background-color: rgba(156, 226, 242, 0.2117647059);
-    border-left: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    align-items: center;
-  }
-
-  .grdTb2-1a .ans {
-    grid-area: ans;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
-
-  .grdTb2-a1 {
+  .group1 .qtn1 .line,
+  .group1 .qtn2 .line,
+  .group1 .qtn3 .line {
     display: grid;
     grid-template-columns: 1fr 300px;
-    grid-template-rows: 48px;
+    grid-template-rows: minmax(48px, auto);
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     font-family: "Roboto", sans-serif;
-    width: 95%;
-    grid-template-areas: "l1 ans";
+    grid-template-areas: "qtn ans";
   }
 
-  .grdTb2-a1 .l1 {
-    grid-area: l1;
+  .group1 .qtn1 .line .qtn,
+  .group1 .qtn2 .line .qtn,
+  .group1 .qtn3 .line .qtn {
+    grid-area: qtn;
     color: #151F6D;
     background-color: rgba(156, 226, 242, 0.2117647059);
     border-left: 1px solid #e6e6e6;
@@ -2672,7 +2656,9 @@
     align-items: center;
   }
 
-  .grdTb2-a1 .ans {
+  .group1 .qtn1 .line .ans,
+  .group1 .qtn2 .line .ans,
+  .group1 .qtn3 .line .ans {
     grid-area: ans;
     border-left: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
@@ -2682,182 +2668,339 @@
     flex-direction: row;
   }
 
-  .grdTb2-a1s,
-  #ecyes {
+  .group1 .qtn1 .line .ans .ans_cnt,
+  .group1 .qtn2 .line .ans .ans_cnt,
+  .group1 .qtn3 .line .ans .ans_cnt {
+    width: 100%;
+    height: auto;
+    min-height: 48px;
+  }
+
+  .group1 .qtn1 .line .ans .ans_cnt .ansx,
+  .group1 .qtn2 .line .ans .ans_cnt .ansx,
+  .group1 .qtn3 .line .ans .ans_cnt .ansx {
+    grid-area: ans;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 48px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .group1 .qtn1 .line .ans .ans_cnt .ansdtx,
+  .group1 .qtn2 .line .ans .ans_cnt .ansdtx,
+  .group1 .qtn3 .line .ans .ans_cnt .ansdtx {
+    grid-area: ansdtx;
+    border-left: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 48px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .group1 .qtn1 .line .ans .ans_cnt .ansdtx input,
+  .group1 .qtn2 .line .ans .ans_cnt .ansdtx input,
+  .group1 .qtn3 .line .ans .ans_cnt .ansdtx input {
+    width: 95%;
+    height: 36px;
+    border: none !important;
+    text-align: left;
+  }
+
+  .group1 .qtn1 {
+    grid-area: qtn1;
+  }
+
+  .group1 .qtn1 .line .qtn {
+    padding-left: 8px;
+  }
+
+  .group1 .qtn2 {
+    grid-area: qtn2;
+  }
+
+  .group1 .qtn2 .line .qtn {
+    padding: 8px 8px 8px 16px;
+  }
+
+  .group1 .qtn3 {
+    grid-area: qtn3;
+  }
+
+  .group1 .qtn3 .line .qtn {
+    padding: 8px 8px 8px 24px;
+  }
+
+  /*
+.grdTb2-1a {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 48px 48px;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    grid-template-areas:
+        "t1 t1"
+        "l1 ans";
+
+    .t1 {
+        grid-area: t1;
+        color: $clr_ps;
+        background-color: $clr_s;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-top: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .l1 {
+        grid-area: l1;
+        color: $clr_p;
+        background-color: $clr_ss;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+    }
+
+    .ans {
+        grid-area: ans;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.grdTb2-a1 {
     display: grid;
     grid-template-columns: 1fr 300px;
     grid-template-rows: 48px;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 95%;
-    grid-template-areas: "l1 ans";
-  }
+    grid-template-areas:
+        "l1 ans";
 
-  .grdTb2-a1s .l1,
-  #ecyes .l1 {
-    grid-area: l1;
-    color: #151F6D;
-    background-color: rgba(156, 226, 242, 0.2117647059);
-    border-left: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    align-items: center;
-  }
+    .l1 {
+        grid-area: l1;
+        color: $clr_p;
+        background-color: $clr_ss;
+        border-left: 1px solid $clr_brdr;
+        border-top: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center
+    }
 
-  .grdTb2-a1s .ans,
-  #ecyes .ans {
-    grid-area: ans;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ans {
+        grid-area: ans;
+        border-left: 1px solid $clr_brdr;
+        border-top: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
+}
 
-  .grdTb2-a2 {
+.grdTb2-a1s,
+#ecyes {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    grid-template-rows: 48px;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    grid-template-areas:
+        "l1 ans";
+
+    .l1 {
+        grid-area: l1;
+        color: $clr_p;
+        background-color: $clr_ss;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+    }
+
+    .ans {
+        grid-area: ans;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.grdTb2-a2 {
     display: grid;
     grid-template-columns: 1fr 300px;
     grid-template-rows: repeat(3, 48px);
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 95%;
-    grid-template-areas: "l1 ans1" "l1 ans2" "l1 ans2tx";
-  }
+    grid-template-areas:
+        "l1 ans1"
+        "l1 ans2"
+        "l1 ans2tx";
 
-  .grdTb2-a2 .l1 {
-    grid-area: l1;
-    color: #151F6D;
-    background-color: rgba(156, 226, 242, 0.2117647059);
-    border-left: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-  }
+    .l1 {
+        grid-area: l1;
+        color: $clr_p;
+        background-color: $clr_ss;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+    }
 
-  .grdTb2-a2 .ans1 {
-    grid-area: ans1;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ans1 {
+        grid-area: ans1;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
 
-  .grdTb2-a2 .ans2 {
-    grid-area: ans2;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ans2 {
+        grid-area: ans2;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
 
-  .grdTb2-a2 .ans2tx {
-    grid-area: ans2tx;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: column;
-  }
+    .ans2tx {
+        grid-area: ans2tx;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: column;
 
-  .grdTb2-a2 .ans2tx input {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    border: none !important;
-    text-align: left;
-  }
+        input {
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
+            border: none !important;
+            //padding: 2px 8px;
+            text-align: left;
+        }
+    }
+}
 
-  .grdTb2-a4 {
+.grdTb2-a4 {
     display: grid;
     grid-template-columns: 1fr 300px;
     grid-template-rows: repeat(5, 48px);
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 95%;
-    grid-template-areas: "l1 ansa" "l1 ansb" "l1 ansc" "l1 ansd" "l1 ansdtx";
-  }
+    grid-template-areas:
+        "l1 ansa"
+        "l1 ansb"
+        "l1 ansc"
+        "l1 ansd"
+        "l1 ansdtx";
 
-  .grdTb2-a4 .l1 {
-    grid-area: l1;
-    color: #151F6D;
-    background-color: rgba(156, 226, 242, 0.2117647059);
-    border-left: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-  }
+    .l1 {
+        grid-area: l1;
+        color: $clr_p;
+        background-color: $clr_ss;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+    }
 
-  .grdTb2-a4 .ansa {
-    grid-area: ansa;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ansa {
+        grid-area: ansa;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
 
-  .grdTb2-a4 .ansb {
-    grid-area: ansb;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ansb {
+        grid-area: ansb;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
 
-  .grdTb2-a4 .ansc {
-    grid-area: ansc;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ansc {
+        grid-area: ansc;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
 
-  .grdTb2-a4 .ansd {
-    grid-area: ansd;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: row;
-  }
+    .ansd {
+        grid-area: ansd;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: row;
+    }
 
-  .grdTb2-a4 .ansdtx {
-    grid-area: ansdtx;
-    border-left: 1px solid #e6e6e6;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    display: flex;
-    flex-direction: column;
-  }
+    .ansdtx {
+        grid-area: ansdtx;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        flex-direction: column;
 
-  .grdTb2-a4 .ansdtx input {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    border: none !important;
-    text-align: left;
-  }
+        input {
+            width: -webkit-fill-available;
+            height: -webkit-fill-available;
+            border: none !important;
+            //padding: 2px 8px;
+            text-align: left;
+        }
+    }
+}
 
-  .lv0 {
+.lv0 {
     padding: 8px;
-  }
+}
 
-  .lv1 {
+.lv1 {
     padding: 8px 8px 8px 20px;
-  }
+}
 
-  .lv2 {
+.lv2 {
     padding: 8px 8px 8px 40px;
-  }
+}
 
-  .lv3 {
+.lv3 {
     padding: 8px 8px 8px 60px;
-  }
+}
 
+*/
   .grdTb3-1 {
     clear: both;
     display: grid;
@@ -9613,16 +9756,113 @@
       </div>
 
       <div class="content_tabs" id="GBV">
+
+        <div class="group1">
+
+          <div class="title">Sexual and Gender-Based Violence</div>
+          <div class="qtn1">
+            <div class="line">
+              <div class="qtn" keyword="opt_c:tb2q1">Is your clinic set up to provide emergency contraception to
+                survivors?</div>
+
+              <div class="ans rdbtn" deid="IyscQTijdhe-X66r2y4EuwS-val" labels="Yes,No" name="q1" values="yes,no">
+                <!-- oneyes,oneno-->
+                <!--oneyes,oneno-->
+                <!-- input name="entryfield" title="" value="" /!-->
+              </div>
+              <input id="IyscQTijdhe-X66r2y4EuwS-val" name="entryfield" style="display:none;"
+                title="HUM-v1 - Clinic NOT set up to provide EC" value="[ HUM-v1 - Clinic NOT set up to provide EC ]" />
+            </div>
+
+          </div>
+
+          <div class="qtn2">
+            <div class="line" id="q2_y">
+
+              <div class="qtn" keyword="opt_c:tb2q2">If yes, did your clinic provide emergency contraception to
+                survivors during
+                this reporting period?</div>
+
+              <div class="ans rdbtn" labels="Yes,No" name="q2" values="yes,no"></div><!--oneyes_y,oneyes_n-->
+
+            </div>
+            <div class="line" id="q2_n">
+
+              <div class="qtn" keyword="opt_c:tb2q4">If no, can your clinic support survivors to access emergency
+                contraception
+                elsewhere through a safe referral?</div>
+
+              <div class="ans rdbtn" deid="AfvGjlOtbVQ-X66r2y4EuwS-val" labels="Yes,No" name="q2"
+                values="oneno_y,oneno_n">
+                <input id="AfvGjlOtbVQ-X66r2y4EuwS-val" name="entryfield" style="display:none;"
+                  title="HUM-v1 - If no support surv. No EC safe referral"
+                  value="[ HUM-v1 - If no support surv. No EC safe referral ]" />
+              </div>
+
+            </div>
+          </div>
+
+          <div class="qtn3">
+            <div class="line" id="q3_yn">
+
+              <div class="qtn">If no, why is this service not available?</div>
+              <div class="ans">
+                <div class="ans_cnt">
+
+                  <div class="ansx rdbtn" labels="National policy does not allow" name="q3yn_op1" values="option1">
+                    <input id="FRxe9vfwsY6-X66r2y4EuwS-val" name="entryfield"
+                      title="HUM-v1 - No EC because National Policy"
+                      value="[ HUM-v1 - No EC because National Policy ]" /></div>
+
+                  <div class="ansx rdbtn" labels="No stock available" name="q3yn_op2" values="option2"><input
+                      id="GXtog0vfGDD-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because Stock out"
+                      value="[ HUM-v1 - No EC because Stock out ]" /></div>
+
+                  <div class="ansx rdbtn" labels="No trained staff" name="q3yn_op3" values="option3"><input
+                      id="eHgHleG5Rv8-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no trained staff"
+                      value="[ HUM-v1 - No EC because no trained staff ]" /></div>
+
+                  <div class="ansx rdbtn" labels="Other" name="q3yn_op3" values="option4"><input
+                      id="wOBfIYXBmiC-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No EC because no other"
+                      value="[ HUM-v1 - No EC because no other ]" /></div>
+
+                  <div class="ansdtx"><input id="wMDweMbOIBU-X66r2y4EuwS-val" name="entryfield"
+                      title="HUM-v1 - No EC because no other (Text)"
+                      value="[ HUM-v1 - No EC because no other (Text) ]" /></div>
+                </div>
+              </div>
+            </div>
+            <div class="line" id="q3_nn">
+
+              <div class="qtn">If no, Why?</div>
+              <div class="ans">
+                <div class="ans_cnt">
+
+                  <div class="ansx rdbtn" labels="No one in the area provides this service" name="q5" values="oneno_n1">
+                    <input id="vl7bLeRkJtw-X66r2y4EuwS-val" name="entryfield"
+                      title="HUM-v1 - No supp. EC safe referral because no one provides"
+                      value="[ HUM-v1 - No supp. EC safe referral because no one provides ]" /></div>
+
+                  <div class="ansx rdbtn" labels="Other:" name="q5" values="oneno_n2"><input
+                      id="WuX2PVXau71-X66r2y4EuwS-val" name="entryfield"
+                      title="HUM-v1 - No supp. EC safe referral other"
+                      value="[ HUM-v1 - No supp. EC safe referral other ]" /></div>
+
+                  <div class="ansdtx"><input id="p3Q4euwKUhu-X66r2y4EuwS-val" name="entryfield"
+                      title="HUM-v1 - No supp. EC safe referral other (text)"
+                      value="[ HUM-v1 - No supp. EC safe referral other (text) ]" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
         <div class="grdTb2-1a" id="one">
           <div class="t1" keyword="opt_c:sgbv">Sexual and Gender-Based Violence</div>
 
           <div class="l1 lv0" keyword="opt_c:tb2q1">Is your clinic set up to provide emergency contraception to
             survivors?</div>
-
-          <div class="ans rdOne" deid="IyscQTijdhe-X66r2y4EuwS-val" labels="Yes,No" name="q1" values="oneyes,oneno">
-            <!-- input name="entryfield" title="" value="" /!--></div>
-          <input id="IyscQTijdhe-X66r2y4EuwS-val" name="entryfield" style="display:none;"
-            title="HUM-v1 - Clinic NOT set up to provide EC" value="[ HUM-v1 - Clinic NOT set up to provide EC ]" />
         </div>
         <br />
         <br />
@@ -9632,7 +9872,8 @@
             to survivors?</div>
 
           <div class="ans rdTwo" deid="MbgfjJryaZq-X66r2y4EuwS-val" labels="Yes,No" name="q6" values="twoyes,twono">
-            <input id="MbgfjJryaZq-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - No provide post-expo Prophylaxis HIV"
+            <input id="MbgfjJryaZq-X66r2y4EuwS-val" name="entryfield"
+              title="HUM-v1 - No provide post-expo Prophylaxis HIV"
               value="[ HUM-v1 - No provide post-expo Prophylaxis HIV ]" />
           </div>
         </div>
@@ -10164,7 +10405,8 @@
 
           <div class="l1_23"><input id="iTmIGCDmhsD-jES5C59w4Js-val" name="entryfield"
               title="HUM-v1 - Contracep C.- RC - Oral pill 25 +"
-              value="[ HUM-v1 - Contracep C.- RC - Oral pill 25 + ]" /></div>
+              value="[ HUM-v1 - Contracep C.- RC - Oral pill 25 + ]" />
+          </div>
 
           <div class="l1_tt2t">&nbsp;</div>
 
@@ -10304,7 +10546,8 @@
 
           <div class="l6_23"><input id="DrwvtFLIu6g-jES5C59w4Js-val" name="entryfield"
               title="HUM-v1 - Contracep C.- RC - Vasectomy 25 +"
-              value="[ HUM-v1 - Contracep C.- RC - Vasectomy 25 + ]" /></div>
+              value="[ HUM-v1 - Contracep C.- RC - Vasectomy 25 + ]" />
+          </div>
 
           <div class="l6_tt2t">&nbsp;</div>
 
@@ -10326,7 +10569,8 @@
 
           <div class="l7_23"><input id="FPF2QMHH00F-jES5C59w4Js-val" name="entryfield"
               title="HUM-v1 - Contracep C.- RC - M condoms 25 +"
-              value="[ HUM-v1 - Contracep C.- RC - M condoms 25 + ]" /></div>
+              value="[ HUM-v1 - Contracep C.- RC - M condoms 25 + ]" />
+          </div>
 
           <div class="l7_tt2t">&nbsp;</div>
 
@@ -10348,7 +10592,8 @@
 
           <div class="l8_23"><input id="AxggAJDeTga-jES5C59w4Js-val" name="entryfield"
               title="HUM-v1 - Contracep C.- RC - F condoms 25 +"
-              value="[ HUM-v1 - Contracep C.- RC - F condoms 25 + ]" /></div>
+              value="[ HUM-v1 - Contracep C.- RC - F condoms 25 + ]" />
+          </div>
 
           <div class="l8_tt2t">&nbsp;</div>
 
@@ -10518,7 +10763,8 @@
 
           <div class="l3c4"><input id="EwhvXinDLBv-jES5C59w4Js-val" name="entryfield"
               title="HUM-v1 - Abortion Care - Provided MVA 25 +"
-              value="[ HUM-v1 - Abortion Care - Provided MVA 25 + ]" /></div>
+              value="[ HUM-v1 - Abortion Care - Provided MVA 25 + ]" />
+          </div>
 
           <div class="total3">&nbsp;</div>
 
@@ -10585,6 +10831,14 @@
 
 <script>
   $(document).ready(function () {
+
+    $('.qtn2').hide();
+    $('#q2_y').hide();
+    $('#q2_n').hide();
+
+    $('.qtn3').hide();
+    $('#q3_yn').hide();
+    $('#q3_nn').hide();
 
     $("body").on("focus", "input", function (event) {
       $(this).attr('autocomplete', 'off')
@@ -10671,6 +10925,7 @@
 
   function RenderRadioBtnTags() {
     var me = this;
+
     me.tabsTag = $("#CustomForm_Content");
 
     me.init = function () {
@@ -10679,25 +10934,79 @@
 
 
     me.renderRadioBtnTags = function () {
-      function createRadioBtn(inputTag, label, value, deId) {
+      function createRadioBtn(inputTag, label, value, deId, name) {
         inputTag.click(function () {
-          console.log(inputTag.val());
+
+          var v_q1 = ""
+    var v_q2 = ""
+
+          console.log("inputTag: " + inputTag.val());
+          console.log("label: " + label);
+          console.log("value: " + value);
+          console.log("deId: " + deId);
+          console.log("name: " + name);
 
           // ---------------- TRAN ADD ----------------------------------
           var deInputTag = me.tabsTag.find("[id='" + deId + "']");
-          var selected = (inputTag.val() == "oneyes") ? true : false;
+          var selected = (inputTag.val() == "yes") ? true : false;
           deInputTag.prop("checked", selected);
+
+
+          if (name == "q1" & inputTag.val() == "yes") {
+            v_q1 = "yes"
+            $('.qtn2').show();
+            $('.qtn3').hide();
+
+            $('#q2_y').show();
+            $('#q2_n').hide();
+            console.log("q1-yes: " + v_q1)
+
+          } else {
+            v_q1 = "no"
+            $('.qtn2').show();
+            $('.qtn3').hide();
+
+            $('#q2_y').hide();
+            $('#q2_n').show();
+
+            console.log("q1-no: " + v_q1)
+          }
+
+          if (name == "q2" & inputTag.val() == "yes") {
+            v_q2 = "yes"
+            console.log("q2-yes: " + v_q1)
+            if (v_q1 == "yes" && v_q2 == "yes") {
+              $('.qtn3').hide();
+              $('#q3_yn').hide();
+              $('#q3_nn').hide();
+            }
+
+          } else {
+            v_q2 = "no"
+            console.log("q2-no: " + v_q1)
+
+            if (v_q1 == "yes" && v_q2 == "no") {
+            $('.qtn3').show();
+            $('#q3_yn').show();
+            }else {
+              $('.qtn3').show();
+              $('#q3_nn').show();
+            }
+
+          }
+
           deInputTag.change();
+
           // ---------------- TRAN ADD - END ----------------------------
 
 
-          me.rbselected(inputTag.val());
+          //me.rbselected(inputTag.val());
         });
         $(this).append(inputTag);
         $(this).append("<label for='" + label + "'>" + label + "</label>");
       }
 
-      $(".rdOne, .rdTwo, .rd_oneyes, .rd_oneyes_n, .rd_oneno, .rd_oneno_n, .rd_twoyes, .rd_twoyes_n, .rd_twono, .rd_twono_n").each(function () {
+      $(".rdbtn").each(function () {
         $(this).html("");
 
         var name = $(this).attr("name");
@@ -10707,19 +11016,20 @@
         for (var i = 0; i < values.length; i++) {
           var inputTag = $("<input name='" + name + "' type='radio' value='" + values[i] + "'/>");
           // createRadioBtn.call(this, inputTag, labels[i], values[i]);
-          createRadioBtn.call(this, inputTag, labels[i], values[i], $(this).attr("deId"));
+          createRadioBtn.call(this, inputTag, labels[i], values[i], $(this).attr("deId"), name);
         }
       });
     };
 
 
     me.rbselected = function (rbsctd) {
+      /*
       const oneyes = `<div id="oneyes" class="grdTb2-a1s"><div class="l1 lv1" keyword="opt_c:tb2q2">If yes, did your clinic provide emergency contraception to survivors during this reporting period?</div><div class="ans rd_oneyes" labels="Yes,No" name="q2" values="oneyes_y,oneyes_n"></div></div>`
 
       const oneyes_n = `<div id="oneyes-n" class="grdTb2-a4"><div id="oneyes_n" class="l1 lv1" keyword="opt_c:tb2q_no">If no, why is this service not available?</div></div>`
 
       const oneno = `<div id="oneno" class="grdTb2-a1s"><div class="l1 lv1" keyword="opt_c:tb2q4">If no, can your clinic support survivors to access emergency contraception elsewhere through a safe referral?</div><div class="ans rd_oneno" labels="Yes,No" name="q4" values="oneno_y,oneno_n"><input id="mQyauTEKafN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. EC safe referral" value="[ HUM-v1 - If no support surv. EC safe referral ]"/><input id="AfvGjlOtbVQ-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - If no support surv. No EC safe referral" value="[ HUM-v1 - If no support surv. No EC safe referral ]"/></div></div>`
-
+*/
       const oneno_n = `<div id="oneno-n" class="grdTb2-a2"><div id="oneno_n" class="l1 lv3" keyword="opt_c:tb2qwhy">If no, Why?</div></div>`
 
       const twoyes = `<div id="twoyes" class="grdTb2-a1s"><div class="l1 lv1" keyword="opt_c:tb2q7">If yes, did your clinic provide Post-Exposure Prophylaxis for HIV to survivors during this reporting period?</div><div class="ans rd_twoyes" labels="Yes,No" name="q7" values="twoyes_y,twoyes_n"><input id="fkPXNirCbkU-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - Yes provide post-expo Prophylaxis HIV" value="[ HUM-v1 - Yes provide post-expo Prophylaxis HIV ]"/><input id="lSfjA6CzZnN-X66r2y4EuwS-val" name="entryfield" title="HUM-v1 - Yes no provide post-expo Prophylaxis HIV" value="[ HUM-v1 - Yes no provide post-expo Prophylaxis HIV ]"/></div></div>`

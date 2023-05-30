@@ -2,41 +2,175 @@
 
 // Is your clinic set up to provide emergency contraception to survivors?
 
-   // -> oneyes (If yes, did your clinic provide emergency contraception to survivors during this reporting period?)
-      // -> oneyes_y (Falta DE)
+// -> oneyes (If yes, did your clinic provide emergency contraception to survivors during this reporting period?)
+// --> oneyes_y (Falta DE)
+// --> oneyes_n (If no, why is this service not available?)
+// ---> oneyes_n1 (National policy does not allow)
+// ---> oneyes_n2 (No stock available)
+// ---> oneyes_n3 (No trained staff)
+// ---> oneyes_n4 (Other)
+//
 
-      // -> oneyes_n (If no, why is this service not available?)
-         // -> oneyes_n1 (National policy does not allow)
-         // -> oneyes_n2 (No stock available)
-         // -> oneyes_n3 (No trained staff)
-         // -> oneyes_n4 (Other)
-      //
-
-   // -> oneno (If no, can your clinic support survivors to access emergency contraception elsewhere through a safe referral?)
-     // -> oneno_y
-     // -> oneno_n (If no, Why?)
-        // -> oneno_n1 (No one in the area provides this service)
-        // -> oneno_n2 (Other)
+// -> oneno (If no, can your clinic support survivors to access emergency contraception elsewhere through a safe referral?)
+// --> oneno_y (Falta DE)
+// --> oneno_n (If no, Why?)
+// ---> oneno_n1 (No one in the area provides this service)
+// ---> oneno_n2 (Other)
 
 // Is your clinic set up to provide Post-Exposure Prophylaxis for HIV to survivors?
 
-   // -> twoyes (If no, can your clinic support survivors to access Post-Exposure Prophylaxis for HIV elsewhere through a safe referral?)
-      // -> twoyes_y (Falta DE)
-      // -> twoyes_n (If no, why is this service not available?)
+// -> twoyes (If no, can your clinic support survivors to access Post-Exposure Prophylaxis for HIV elsewhere through a safe referral?)
+// --> twoyes_y (Falta DE)
+// --> twoyes_n (If no, why is this service not available?)
+// ---> twoyes_n1 (National policy does not allow)
+// ---> twoyes_n2 (No stock available)
+// ---> twoyes_n3 (No trained staff)
+// ---> twoyes_n4 (Other)
+//
+// -> twono (If no, can your clinic support survivors to access Post-Exposure Prophylaxis for HIV elsewhere through a safe referral?)
+// --> twono_y
+// --> twono_n
+// ---> twono_n1
+// ---> twono_n2
 
-         // -> twoyes_n1 (National policy does not allow)
-         // -> twoyes_n2 (No stock available)
-         // -> twoyes_n3 (No trained staff)
-         // -> twoyes_n4 (Other)
-      //
-   // -> twono (If no, can your clinic support survivors to access Post-Exposure Prophylaxis for HIV elsewhere through a safe referral?)
-     // -> twono_y
-     // -> twono_n
-        // -> twono_n1
-        // -> twono_n2
 
-     
+.group1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, minmax(48px, auto)) auto;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    align-items: stretch;
+    width: 95%;
+    grid-template-areas:
+        "title"
+        "qtn1"
+        "qtn2"
+        "qtn3";
 
+    .title {
+        grid-area: title;
+        color: $clr_ps;
+        background-color: $clr_s;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-top: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .qtn1,
+    .qtn2,
+    .qtn3 {
+        .line {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            grid-template-rows: minmax(48px, auto);
+            grid-auto-columns: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            font-family: 'Roboto', sans-serif;
+            grid-template-areas:
+                "qtn ans";
+
+            .qtn {
+                grid-area: qtn;
+                color: $clr_p;
+                background-color: $clr_ss;
+                border-left: 1px solid $clr_brdr;
+                border-top: 1px solid $clr_brdr;
+                border-bottom: 1px solid $clr_brdr;
+                display: flex;
+                align-items: center
+            }
+
+            .ans {
+                grid-area: ans;
+                border-left: 1px solid $clr_brdr;
+                border-top: 1px solid $clr_brdr;
+                border-right: 1px solid $clr_brdr;
+                border-bottom: 1px solid $clr_brdr;
+                display: flex;
+                flex-direction: row;
+
+                .ans_cnt {
+                    width: 100%;
+                    height: auto;
+                    min-height: 48px;
+
+                    .ansx {
+                        grid-area: ans;
+                        border-left: 1px solid $clr_brdr;
+                        border-top: 1px solid $clr_brdr;
+                        border-right: 1px solid $clr_brdr;
+                        border-bottom: 1px solid $clr_brdr;
+                        min-height: 48px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+
+                    .ansdtx {
+                        grid-area: ansdtx;
+                        border-left: 1px solid $clr_brdr;
+                        border-right: 1px solid $clr_brdr;
+                        border-bottom: 1px solid $clr_brdr;
+                        min-height: 48px;
+                        display: flex;
+                        flex-direction: column;
+
+                        input {
+                            width: 95%;
+                            height: 36px;
+                            border: none !important;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .qtn1 {
+        grid-area: qtn1;
+
+        .line {
+
+            .qtn {
+                padding-left: 8px;
+            }
+        }
+    }
+
+    .qtn2 {
+        grid-area: qtn2;
+
+        .line {
+
+            .qtn {
+                padding: 8px 8px 8px 16px;
+            }
+        }
+    }
+
+    .qtn3 {
+        grid-area: qtn3;
+
+        .line {
+
+            .qtn {
+                padding: 8px 8px 8px 24px;
+            }
+
+            //  
+        }
+
+    }
+}
+
+/*
 .grdTb2-1a {
     display: grid;
     grid-template-columns: 1fr 300px;
@@ -301,3 +435,5 @@
 .lv3 {
     padding: 8px 8px 8px 60px;
 }
+
+*/
