@@ -1,10 +1,9 @@
 // Tab3
 
 .grdTb3-1 {
-    clear: both;
     display: grid;
-    grid-template-columns: 120px 40px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto repeat(10, 48px);
+    grid-template-columns: auto repeat(3, minmax(144px, auto));
+    grid-template-rows: 96px repeat(5, minmax(48px, auto));
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -12,95 +11,15 @@
     font-family: 'Roboto', sans-serif;
     width: 95%;
     grid-template-areas:
-        "title title t1 total1 t2 total2 t3 total3 t4 total4 t5 total5"
-        "g1 g1tl1 g1c1l1 g1t1 g1c2l1 g1t2 g1c3l1 g1t3 g1c4l1 g1t4 g1c5l1 g1t5"
-        "g1 g1tl2 g1c1l2 g1t1 g1c2l2 g1t2 g1c3l2 g1t3 g1c4l2 g1t4 g1c5l2 g1t5"
-        "g1 g1tl3 g1c1l3 g1t1 g1c2l3 g1t2 g1c3l3 g1t3 g1c4l3 g1t4 g1c5l3 g1t5"
-        "g2 g2tl1 g2c1l1 g2t1 g2c2l1 g2t2 g2c3l1 g2t3 g2c4l1 g2t4 g2c5l1 g2t5"
-        "g2 g2tl2 g2c1l2 g2t1 g2c2l2 g2t2 g2c3l2 g2t3 g2c4l2 g2t4 g2c5l2 g2t5"
-        "g2 g2tl3 g2c1l3 g2t1 g2c2l3 g2t2 g2c3l3 g2t3 g2c4l3 g2t4 g2c5l3 g2t5"
-        "g3 g3tl1 g3c1l1 g3t1 g3c2l1 g3t2 g3c3l1 g3t3 g3c4l1 g3t4 g3c5l1 g3t5"
-        "g3 g3tl2 g3c1l2 g3t1 g3c2l2 g3t2 g3c3l2 g3t3 g3c4l2 g3t4 g3c5l2 g3t5"
-        "g3 g3tl3 g3c1l3 g3t1 g3c2l3 g3t2 g3c3l3 g3t3 g3c4l3 g3t4 g3c5l3 g3t5"
-        "cc1 cc1 cc1 c1t cc2 c2t cc3 c3t cc4 c4t cc5 c5t";
+        "gr_tt gr_10-19 gr_20-24 gr_25"
+        "l1 l1_10-19 l1_20-24 l1_25"
+        "l2 l2_10-19 l2_20-24 l2_25"  
+        "l3 l3_10-19 l3_20-24 l3_25"
+        "l4 l4_10-19 l4_20-24 l4_25"
+        "l5 l5_10-19 l5_20-24 l5_25";
 
-    .c1t {
-        grid-area: c1t;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .c2t {
-        grid-area: c2t;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .c3t {
-        grid-area: c3t;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .c4t {
-        grid-area: c4t;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .c5t {
-        grid-area: c5t;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .title {
-        grid-area: title;
+    .gr_tt {
+        grid-area: gr_tt;
         color: $clr_ps;
         background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
@@ -111,1246 +30,1053 @@
         padding: 8px;
     }
 
-    .t1 {
-        grid-area: t1;
+    .gr_10-19 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 48px);
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gr_10-19tt gr_10-19tt gr_10-19tt"
+            "gr_10-19m gr_10-19f gr_10-19nb";
+        grid-area: gr_10-19;
+
+        .gr_10-19tt {
+            grid-area: gr_10-19tt;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-top: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+
+        .gr_10-19m {
+            grid-area: gr_10-19m;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+
+        .gr_10-19f {
+            grid-area: gr_10-19f;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+
+        .gr_10-19nb {
+            grid-area: gr_10-19nb;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+    }
+
+    .gr_20-24 {
+        display: grid;
+        grid-template-rows: repeat(3, 48px);
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gr_20-24tt gr_20-24tt gr_20-24tt"
+            "gr_20-24m gr_20-24f gr_20-24nb";
+        grid-area: gr_20-24;
+
+        .gr_20-24tt {
+            grid-area: gr_20-24tt;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-top: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+
+        .gr_20-24m {
+            grid-area: gr_20-24m;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+
+        .gr_20-24f {
+            grid-area: gr_20-24f;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+
+        .gr_20-24nb {
+            grid-area: gr_20-24nb;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+    }
+
+    .gr_25 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 48px);
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "gr_25tt gr_25tt gr_25tt"
+            "gr_25m gr_25f gr_25nb";
+        grid-area: gr_25;
+
+        .gr_25tt {
+            grid-area: gr_25tt;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-top: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+        }
+
+        .gr_25m {
+            grid-area: gr_25m;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+
+        .gr_25f {
+            grid-area: gr_25f;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+
+        .gr_25nb {
+            grid-area: gr_25nb;
+            color: $clr_ps;
+            background-color: $clr_s;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+            text-align: center;
+            line-height: 36px;
+            padding: 8px;
+        }
+    }
+
+    .l1 {
+        grid-area: l1;
         color: $clr_ps;
         background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         display: flex;
         align-items: center;
-        justify-content: center;
         padding: 8px;
     }
 
-    .total1 {
-        grid-area: total1;
+    .l1_10-19 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l1_10-19m l1_10-19f l1_10-19nb"
+            "l1_10-19m l1_10-19f l1_10-19nb"
+            "l1_10-19m l1_10-19f l1_10-19nb";
+        grid-area: l1_10-19;
+
+        .l1_10-19m {
+            grid-area: l1_10-19m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l1_10-19f {
+            grid-area: l1_10-19f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l1_10-19nb {
+            grid-area: l1_10-19nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l1_20-24 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l1_20-24m l1_20-24f l1_20-24nb"
+            "l1_20-24m l1_20-24f l1_20-24nb"
+            "l1_20-24m l1_20-24f l1_20-24nb";
+        grid-area: l1_20-24;
+
+        .l1_20-24m {
+            grid-area: l1_20-24m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l1_20-24f {
+            grid-area: l1_20-24f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l1_20-24nb {
+            grid-area: l1_20-24nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l1_25 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l1_25m l1_25f l1_25nb"
+            "l1_25m l1_25f l1_25nb"
+            "l1_25m l1_25f l1_25nb";
+        grid-area: l1_25;
+
+        .l1_25m {
+            grid-area: l1_25m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l1_25f {
+            grid-area: l1_25f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l1_25nb {
+            grid-area: l1_25nb;
+            border-right: 1px solid $clr_brdr;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l2 {
+        grid-area: l2;
         color: $clr_ps;
         background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;
+    }
+
+    .l2_10-19 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l2_10-19m l2_10-19f l2_10-19nb"
+            "l2_10-19m l2_10-19f l2_10-19nb"
+            "l2_10-19m l2_10-19f l2_10-19nb";
+        grid-area: l2_10-19;
+
+        .l2_10-19m {
+            grid-area: l2_10-19m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l2_10-19f {
+            grid-area: l2_10-19f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l2_10-19nb {
+            grid-area: l2_10-19nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l2_20-24 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l2_20-24m l2_20-24f l2_20-24nb"
+            "l2_20-24m l2_20-24f l2_20-24nb"
+            "l2_20-24m l2_20-24f l2_20-24nb";
+        grid-area: l2_20-24;
+
+        .l2_20-24m {
+            grid-area: l2_20-24m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l2_20-24f {
+            grid-area: l2_20-24f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l2_20-24nb {
+            grid-area: l2_20-24nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l2_25 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l2_25m l2_25f l2_25nb"
+            "l2_25m l2_25f l2_25nb"
+            "l2_25m l2_25f l2_25nb";
+        grid-area: l2_25;
+    }
+
+    .l2_25m {
+        grid-area: l2_25m;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l2_25f {
+        grid-area: l2_25f;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l2_25nb {
+        grid-area: l2_25nb;
         border-right: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
 
-    .t2 {
-        grid-area: t2;
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+    /**/
+    .l3 {
+        grid-area: l3;
         color: $clr_ps;
         background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         display: flex;
         align-items: center;
-        justify-content: center;
         padding: 8px;
     }
 
-    .total2 {
-        grid-area: total2;
-        color: $clr_ps;
-        background-color: $clr_s;
+    .l3_10-19 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l3_10-19m l3_10-19f l3_10-19nb"
+            "l3_10-19m l3_10-19f l3_10-19nb"
+            "l3_10-19m l3_10-19f l3_10-19nb";
+        grid-area: l3_10-19;
+
+        .l3_10-19m {
+            grid-area: l3_10-19m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l3_10-19f {
+            grid-area: l3_10-19f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l3_10-19nb {
+            grid-area: l3_10-19nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l3_20-24 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l3_20-24m l3_20-24f l3_20-24nb"
+            "l3_20-24m l3_20-24f l3_20-24nb"
+            "l3_20-24m l3_20-24f l3_20-24nb";
+        grid-area: l3_20-24;
+
+        .l3_20-24m {
+            grid-area: l3_20-24m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l3_20-24f {
+            grid-area: l3_20-24f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l3_20-24nb {
+            grid-area: l3_20-24nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l3_25 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l3_25m l3_25f l3_25nb"
+            "l3_25m l3_25f l3_25nb"
+            "l3_25m l3_25f l3_25nb";
+        grid-area: l3_25;
+    }
+
+    .l3_25m {
+        grid-area: l3_25m;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l3_25f {
+        grid-area: l3_25f;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l3_25nb {
+        grid-area: l3_25nb;
         border-right: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
     }
 
-    .t3 {
-        grid-area: t3;
+    .l4 {
+        grid-area: l4;
         color: $clr_ps;
         background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         display: flex;
         align-items: center;
-        justify-content: center;
         padding: 8px;
     }
 
-    .total3 {
-        grid-area: total3;
-        color: $clr_ps;
-        background-color: $clr_s;
+    .l4_10-19 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l4_10-19m l4_10-19f l4_10-19nb"
+            "l4_10-19m l4_10-19f l4_10-19nb"
+            "l4_10-19m l4_10-19f l4_10-19nb";
+        grid-area: l4_10-19;
+
+        .l4_10-19m {
+            grid-area: l4_10-19m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l4_10-19f {
+            grid-area: l4_10-19f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l4_10-19nb {
+            grid-area: l4_10-19nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l4_20-24 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l4_20-24m l4_20-24f l4_20-24nb"
+            "l4_20-24m l4_20-24f l4_20-24nb"
+            "l4_20-24m l4_20-24f l4_20-24nb";
+        grid-area: l4_20-24;
+
+        .l4_20-24m {
+            grid-area: l4_20-24m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l4_20-24f {
+            grid-area: l4_20-24f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l4_20-24nb {
+            grid-area: l4_20-24nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l4_25 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l4_25m l4_25f l4_25nb"
+            "l4_25m l4_25f l4_25nb"
+            "l4_25m l4_25f l4_25nb";
+        grid-area: l4_25;
+    }
+
+    .l4_25m {
+        grid-area: l4_25m;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l4_25f {
+        grid-area: l4_25f;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l4_25nb {
+        grid-area: l4_25nb;
         border-right: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
+        border-left: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
     }
 
-    .t4 {
-        grid-area: t4;
+    .l5 {
+        grid-area: l5;
         color: $clr_ps;
         background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
         display: flex;
         align-items: center;
-        justify-content: center;
         padding: 8px;
     }
 
-    .total4 {
-        grid-area: total4;
-        color: $clr_ps;
-        background-color: $clr_s;
+    .l5_10-19 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l5_10-19m l5_10-19f l5_10-19nb"
+            "l5_10-19m l5_10-19f l5_10-19nb"
+            "l5_10-19m l5_10-19f l5_10-19nb";
+        grid-area: l5_10-19;
+
+        .l5_10-19m {
+            grid-area: l5_10-19m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l5_10-19f {
+            grid-area: l5_10-19f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l5_10-19nb {
+            grid-area: l5_10-19nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l5_20-24 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l5_20-24m l5_20-24f l5_20-24nb"
+            "l5_20-24m l5_20-24f l5_20-24nb"
+            "l5_20-24m l5_20-24f l5_20-24nb";
+        grid-area: l5_20-24;
+
+        .l5_20-24m {
+            grid-area: l5_20-24m;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l5_20-24f {
+            grid-area: l5_20-24f;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+
+        .l5_20-24nb {
+            grid-area: l5_20-24nb;
+            border-left: 1px solid $clr_brdr;
+            border-bottom: 1px solid $clr_brdr;
+
+            input {
+                width: 80%;
+                height: 80%;
+                border: none !important;
+                padding: 2px 8px;
+                text-align: right;
+            }
+        }
+    }
+
+    .l5_25 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "l5_25m l5_25f l5_25nb"
+            "l5_25m l5_25f l5_25nb"
+            "l5_25m l5_25f l5_25nb";
+        grid-area: l5_25;
+    }
+
+    .l5_25m {
+        grid-area: l5_25m;
         border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l5_25f {
+        grid-area: l5_25f;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+            text-align: right;
+        }
+    }
+
+    .l5_25nb {
+        grid-area: l5_25nb;
         border-right: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .t5 {
-        grid-area: t5;
-        color: $clr_ps;
-        background-color: $clr_s;
         border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .total5 {
-        grid-area: total5;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g1 {
-        grid-area: g1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g1tl1 {
-        grid-area: g1tl1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g1l1t1 {
-        grid-area: g1l1t1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c1l1 {
-        grid-area: g1c1l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c2l1 {
-        grid-area: g1c2l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1tl2 {
-        grid-area: g1tl2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g1c1l2 {
-        grid-area: g1c1l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c2l2 {
-        grid-area: g1c2l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1tl3 {
-        grid-area: g1tl3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g1c1l3 {
-        grid-area: g1c1l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c2l3 {
-        grid-area: g1c2l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t1 {
-        grid-area: g1t1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t2 {
-        grid-area: g1t2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c3l1 {
-        grid-area: g1c3l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c3l2 {
-        grid-area: g1c3l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c3l3 {
-        grid-area: g1c3l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t3 {
-        grid-area: g1t3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c4l1 {
-        grid-area: g1c4l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c4l2 {
-        grid-area: g1c4l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c4l3 {
-        grid-area: g1c4l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t4 {
-        grid-area: g1t4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c4l1 {
-        grid-area: g1c4l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c4l2 {
-        grid-area: g1c4l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c4l3 {
-        grid-area: g1c4l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t4 {
-        grid-area: g1t4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c5l1 {
-        grid-area: g1c5l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c5l2 {
-        grid-area: g1c5l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1c5l3 {
-        grid-area: g1c5l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t5 {
-        grid-area: g1t5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2 {
-        grid-area: g2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g2tl1 {
-        grid-area: g2tl1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g2c1l1 {
-        grid-area: g2c1l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c2l1 {
-        grid-area: g2c2l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2tl2 {
-        grid-area: g2tl2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g2c1l2 {
-        grid-area: g2c1l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c2l2 {
-        grid-area: g2c2l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2tl3 {
-        grid-area: g2tl3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g2c1l3 {
-        grid-area: g2c1l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c2l3 {
-        grid-area: g2c2l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l3t2 {
-        grid-area: g2l3t2;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t1 {
-        grid-area: g2t1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t2 {
-        grid-area: g2t2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c3l1 {
-        grid-area: g2c3l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c3l2 {
-        grid-area: g2c3l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c3l3 {
-        grid-area: g2c3l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t3 {
-        grid-area: g2t3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c4l1 {
-        grid-area: g2c4l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c4l2 {
-        grid-area: g2c4l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c4l3 {
-        grid-area: g2c4l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t4 {
-        grid-area: g2t4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c4l1 {
-        grid-area: g2c4l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c4l2 {
-        grid-area: g2c4l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c4l3 {
-        grid-area: g2c4l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t4 {
-        grid-area: g2t4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c5l1 {
-        grid-area: g2c5l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c5l2 {
-        grid-area: g2c5l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2c5l3 {
-        grid-area: g2c5l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t5 {
-        grid-area: g2t5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3 {
-        grid-area: g3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g3tl1 {
-        grid-area: g3tl1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g3c1l1 {
-        grid-area: g3c1l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c2l1 {
-        grid-area: g3c2l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3tl2 {
-        grid-area: g3tl2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g3c1l2 {
-        grid-area: g3c1l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c2l2 {
-        grid-area: g3c2l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3tl3 {
-        grid-area: g3tl3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g3c1l3 {
-        grid-area: g3c1l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c2l3 {
-        grid-area: g3c2l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3t1 {
-        grid-area: g3t1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3t2 {
-        grid-area: g3t2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c3l1 {
-        grid-area: g3c3l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c3l2 {
-        grid-area: g3c3l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c3l3 {
-        grid-area: g3c3l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3t3 {
-        grid-area: g3t3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c4l1 {
-        grid-area: g3c4l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c4l2 {
-        grid-area: g3c4l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c4l3 {
-        grid-area: g3c4l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3t4 {
-        grid-area: g3t4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c5l1 {
-        grid-area: g3c5l1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c5l2 {
-        grid-area: g3c5l2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3c5l3 {
-        grid-area: g3c5l3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3t5 {
-        grid-area: g3t5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1363,1144 +1089,6 @@
     }
 }
 
-.grdTb3-1 {
-    display: grid;
-    grid-template-columns: 1fr auto repeat(5, 1fr);
-    grid-template-rows: 1fr repeat(12, 48px);
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    margin-bottom: 20px;
-    font-family: 'Roboto', sans-serif;
-    width: 95%;
-    grid-template-areas:
-        "title title c1 c2 c3 c4 c5"
-        "g1 g1l1 g1l1c1 g1l1c2 g1l1c3 g1l1c4 g1l1c5"
-        "g1 g1l2 g1l2c1 g1l2c2 g1l2c3 g1l2c4 g1l2c5"
-        "g1 g1l3 g1l3c1 g1l3c2 g1l3c3 g1l3c4 g1l3c5"
-        "g1t g1t g1ttc1 g1ttc2 g1ttc3 g1ttc4 g1ttc5"
-        "g2 g2l1 g2l1c1 g2l1c2 g2l1c3 g2l1c4 g2l1c5"
-        "g2 g2l2 g2l2c1 g2l2c2 g2l2c3 g2l2c4 g2l2c5"
-        "g2 g2l3 g2l3c1 g2l3c2 g2l3c3 g2l3c4 g2l3c5"
-        "g2t g2t g2ttc1 g2ttc2 g2ttc3 g2ttc4 g2ttc5"
-        "g3 g3l1 g3l1c1 g3l1c2 g3l1c3 g3l1c4 g3l1c5"
-        "g3 g3l2 g3l2c1 g3l2c2 g3l2c3 g3l2c4 g3l2c5"
-        "g3 g3l3 g3l3c1 g3l3c2 g3l3c3 g3l3c4 g3l3c5"
-        "g3t g3t g3ttc1 g3ttc2 g3ttc3 g3ttc4 g3ttc5";
-
-    .title {
-        grid-area: title;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .c1 {
-        grid-area: c1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .c2 {
-        grid-area: c2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .c3 {
-        grid-area: c3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .c4 {
-        grid-area: c4;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .c5 {
-        grid-area: c5;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .ctt {
-        grid-area: ctt;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-top: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .g1 {
-        grid-area: g1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g1l1 {
-        grid-area: g1l1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g1l1c1 {
-        grid-area: g1l1c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l1c2 {
-        grid-area: g1l1c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l1c3 {
-        grid-area: g1l1c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l1c4 {
-        grid-area: g1l1c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l1c5 {
-        grid-area: g1l1c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l2 {
-        grid-area: g1l2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g1l2c1 {
-        grid-area: g1l2c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l2c2 {
-        grid-area: g1l2c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l2c3 {
-        grid-area: g1l2c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l2c4 {
-        grid-area: g1l2c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l2c5 {
-        grid-area: g1l2c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l3 {
-        grid-area: g1l3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g1l3c1 {
-        grid-area: g1l3c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l3c2 {
-        grid-area: g1l3c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l3c3 {
-        grid-area: g1l3c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l3c4 {
-        grid-area: g1l3c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1l3c5 {
-        grid-area: g1l3c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1t {
-        grid-area: g1t;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding: 8px;
-    }
-
-    .g1ttc1 {
-        grid-area: g1ttc1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1ttc2 {
-        grid-area: g1ttc2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1ttc3 {
-        grid-area: g1ttc3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1ttc4 {
-        grid-area: g1ttc4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g1ttc5 {
-        grid-area: g1ttc5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2 {
-        grid-area: g2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g2l1 {
-        grid-area: g2l1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g2l1c1 {
-        grid-area: g2l1c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l1c2 {
-        grid-area: g2l1c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l1c3 {
-        grid-area: g2l1c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l1c4 {
-        grid-area: g2l1c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l1c5 {
-        grid-area: g2l1c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l2 {
-        grid-area: g2l2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g2l2c1 {
-        grid-area: g2l2c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l2c2 {
-        grid-area: g2l2c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l2c3 {
-        grid-area: g2l2c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l2c4 {
-        grid-area: g2l2c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l2c5 {
-        grid-area: g2l2c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l3 {
-        grid-area: g2l3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g2l3c1 {
-        grid-area: g2l3c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l3c2 {
-        grid-area: g2l3c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l3c3 {
-        grid-area: g2l3c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l3c4 {
-        grid-area: g2l3c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2l3c5 {
-        grid-area: g2l3c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2t {
-        grid-area: g2t;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding: 8px;
-    }
-
-    .g2ttc1 {
-        grid-area: g2ttc1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2ttc2 {
-        grid-area: g2ttc2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2ttc3 {
-        grid-area: g2ttc3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2ttc4 {
-        grid-area: g2ttc4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g2ttc5 {
-        grid-area: g2ttc5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3 {
-        grid-area: g3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        padding: 8px;
-    }
-
-    .g3l1 {
-        grid-area: g3l1;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g3l1c1 {
-        grid-area: g3l1c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l1c2 {
-        grid-area: g3l1c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l1c3 {
-        grid-area: g3l1c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l1c4 {
-        grid-area: g3l1c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l1c5 {
-        grid-area: g3l1c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l2 {
-        grid-area: g3l2;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g3l2c1 {
-        grid-area: g3l2c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l2c2 {
-        grid-area: g3l2c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l2c3 {
-        grid-area: g3l2c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l2c4 {
-        grid-area: g3l2c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l2c5 {
-        grid-area: g3l2c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l3 {
-        grid-area: g3l3;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .g3l3c1 {
-        grid-area: g3l3c1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l3c2 {
-        grid-area: g3l3c2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l3c3 {
-        grid-area: g3l3c3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l3c4 {
-        grid-area: g3l3c4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3l3c5 {
-        grid-area: g3l3c5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3t {
-        grid-area: g3t;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: end;
-        padding: 8px;
-    }
-
-    .g3ttc1 {
-        grid-area: g3ttc1;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3ttc2 {
-        grid-area: g3ttc2;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3ttc3 {
-        grid-area: g3ttc3;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3ttc4 {
-        grid-area: g3ttc4;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-
-    .g3ttc5 {
-        grid-area: g3ttc5;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-            text-align: right;
-        }
-    }
-}
 
 .grdTb3-2 {
     display: grid;
